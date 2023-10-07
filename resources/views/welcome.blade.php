@@ -22,7 +22,7 @@
 
               <!-- Main image-->
 
-              <img src="img/slider/oil-barrels.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+              <img src="/img/slider/oil-barrels.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
               <!-- Layer 1 -->
 
@@ -91,7 +91,7 @@
 
               <!-- Main image -->
 
-              <img src="img/slider/greenPanels.webp"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+              <img src="/img/slider/greenPanels.webp"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
               <!-- Layer 1 -->
 
@@ -163,7 +163,7 @@
 
               <!-- Main image-->
 
-              <img src="img/slider/escrow-account.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+              <img src="/img/slider/escrow-account.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
               <!-- Layer 1 -->
 
@@ -234,7 +234,7 @@
 
                 <!-- Main image-->
 
-                <img src="img/slider/business-advisory.webp"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+                <img src="/img/slider/business-advisory.webp"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
 
                 <!-- Layer 1 -->
 
@@ -325,17 +325,17 @@
               <div class="col-base col-about-spec col-sm-6 col-md-4">
                 <h3 class="col-about-title">our<br> specialization<span class="text-primary">:</span></h3>
                 <div class="service-item">
-                  {{-- <img alt="" width="46" src="img/img-icon/icon-architecture.png"> --}}
+                  {{-- <img alt="" width="46" src="/img/img-icon/icon-architecture.png"> --}}
                   <i class="fas fa-star fa-lg"></i>
                   <h4>Excellence in Everything</h4>
                 </div>
                 <div class="service-item">
-                  {{-- <img alt="" width="58" src="img/img-icon/icon-interiors.png"> --}}
+                  {{-- <img alt="" width="58" src="/img/img-icon/icon-interiors.png"> --}}
                   <i class="fas fa-building fa-lg"></i>
                   <h4>Trust as our Foundation.</h4>
                 </div>
                 <div class="service-item">
-                  {{-- <img alt="" width="58" src="img/img-icon/icon-planing.png"> --}}
+                  {{-- <img alt="" width="58" src="/img/img-icon/icon-planing.png"> --}}
                   <i class="fas fa-lightbulb fa-lg"></i>
                   <h4>Forward-Thinking Adaptability</h4>
                 </div>
@@ -350,137 +350,222 @@
       </section>
 
       <!-- Projects -->
+      <div class="modal fade" id="trading">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
 
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Commodity Trading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><b>Trade Oil and Gas with Confidence:</b> <br>
+                                At Legend Brokers, our Oil and Gas trading division stands as a beacon of excellence in the industry. With a wealth of experience and a deep understanding of the global energy market, we navigate the complexities of Oil and Gas trading with precision. We provide our clients with unmatched insights, enabling them to make informed decisions in a volatile market landscape.
+                                With a track record of excellence, we take pride in having sold over +5 million barrels, and our journey continues.
+                                </p>
+                                <p>
+                                    <b>Trade Renewable Energy Equipment with Confidence:</b> <br>
+At Legend Brokers, we offer a comprehensive range of high-quality products from tier one manufacturers. Our extensive selection, coupled with our commitment to fast delivery dates, ensures that you have access to the latest and most reliable renewable energy solutions.
+We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipments across +65 countries. In small letters, this achievement translates to a remarkable reduction of 15.8 billion KG CO2 emissions over 25 years, equivalent to removing +3.5 million cars from the road or planting +28.7 million trees.  Try to have icons here if possible
+                                </p>
+                                <p>
+                                    <b>Trade Metals with Confidence:</b> <br>
+At Legend Brokers we navigate the complexities of metals trading with precision. We offer a wide range of metals, including precious and base metals, and provide clients with unmatched knowledge and support. Our dedication to reliability, transparency, and efficiency ensures that every metals trading transaction is executed with professionalism and expertise.
+                                </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="development">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Renewable Energy Development</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><b>Renewable Energy Development. </b> <br>
+                                At Legend Brokers we are dedicated to advancing clean and sustainable energy solutions that pave the way for a greener future. With a focus on innovation and collaboration, we specialize in the development of renewable energy projects and the distribution of high-quality equipment. Our goal is to make a positive impact by reducing carbon footprints, mitigating environmental impact, and creating a sustainable energy landscape for generations to come.
+                                </p>
+                                <p>
+                                    <b>Renewable Energy Consultation.</b> <br>
+                                    Legend Brokers is your gateway to informed decisions and sustainable choices. Our team of experts provides tailored guidance on renewable energy solutions, helping you navigate the complexities of the industry. From project feasibility assessments to equipment selection and regulatory compliance, we offer comprehensive consultation services. Whether you're a seasoned player or a newcomer to renewable energy, we empower you to make impactful choices that benefit both your business and the planet.</p>
+                                <p>
+                                    <b>Trade Metals with Confidence:</b> <br>
+At Legend Brokers we navigate the complexities of metals trading with precision. We offer a wide range of metals, including precious and base metals, and provide clients with unmatched knowledge and support. Our dedication to reliability, transparency, and efficiency ensures that every metals trading transaction is executed with professionalism and expertise.
+                                </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="advisory">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Business Advisory </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><b>Strategic Planning & Management:</b> <br>
+                                At Legend Brokers, we specialize in crafting meticulous strategies that align with your unique objectives and market dynamics. Our approach encompasses long-term vision, goal setting, and performance monitoring. With a focus on precision and innovation, we provide the strategic guidance needed to thrive in an ever-evolving business environment. Partner with us to chart a course to success and realize your business aspirations.
+                                </p>
+                                <p>
+                                    <b>Market Research & Analysis.</b> <br>
+                                    At Legend Brokers, we excel in providing data-driven insights into market trends, customer behavior, and competitor strategies. Our in-depth analysis empowers businesses to make informed choices, seize opportunities, and stay ahead of the curve. With a commitment to meticulous research, we are your trusted partner in navigating the complexities of the market, ensuring that your strategies are grounded in robust data and insights. </p>
+                                <p>
+                                    <b>Organizational Development & Expansion.</b> <br>
+                                    At Legend Brokers, we offer comprehensive solutions to enhance your organizational structure, cultivate talent, and foster leadership development. Our expertise extends to risk management, compliance, and global expansion strategies. We provide the guidance and support needed to navigate complex regulatory environments, seize international opportunities, and create a stronger, more adaptable organization. Partner with us to unlock your business's full potential and embark on a path of continuous growth and expansion. </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="escrow">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Escrow Service </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><b>Commodity Trading.</b> <br>
+                                At Legend Brokers, our impartial and secure escrow platform ensures that funds and assets are safeguarded during complex commodity trades. We act as a neutral third party, overseeing transactions with transparency and integrity. Whether it's facilitating seamless mergers and acquisitions, ensuring real estate deal transparency, or mitigating risks in international trade, our commitment to neutrality guarantees equitable and transparent commodity trading transactions. With us as your trusted partner, you can engage in commodity trading with confidence and peace of mind. </p>
+                                <p>
+                                    <b>Energy Project Financing.</b> <br>
+                                    At Legend Brokers, we provide a secure and impartial platform to protect funds and assets during the financing of energy projects. Our role as a trusted intermediary ensures that all parties involved have the assurance they need to move forward with these complex endeavors. From securing funding for sustainable energy initiatives to facilitating transparent transactions, our commitment to neutrality and security guarantees that your energy projects are supported by a foundation of trust and reliability.</p>
+                                <p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
       <section class="projects section">
         <div class="container">
           <h2 class="section-title">Our <span class="text-primary">Markets</span></h2>
         </div>
         <div class="section-content">
-          <div class="projects-carousel js-projects-carousel js-projects-gallery">
+          <div class="projects-carousel js-projects-carousel">
             <div class="project project-light">
-              <a href="img/projects/1-480x880.jpg" title="project 1">
+              <a href="#"  data-toggle="modal" data-target="#trading">
                 <figure>
-                  <img alt="" src="img/projects/1-480x880.jpg">
+                  <img alt="" src="/img/projects/6-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                      Residential care<br> project in Paris
+                        Commodity Trading
                     </h3>
                     <h4 class="project-category">
-                      Architecture
+                      Trading
                     </h4>
-                    <div class="project-zoom"></div>
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-            <div class="project project-light">
-              <a href="img/projects/2-480x880.jpg" title="project 2">
-                <figure>
-                  <img alt="" src="img/projects/2-480x880.jpg">
-                  <figcaption>
-                    <h3 class="project-title">
-                      Concert hall<br> in New york
-                    </h3>
-                    <h4 class="project-category">
-                      Architecture
-                    </h4>
-                    <div class="project-zoom"></div>
                   </figcaption>
                 </figure>
               </a>
             </div>
             <div class="project">
-              <a href="img/projects/3-480x880.jpg" title="project 3">
+              <a  href="#"  data-toggle="modal" data-target="#development">
                 <figure>
-                  <img alt="" src="img/projects/3-480x880.jpg">
+                  <img alt="" src="/img/projects/6-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                      Modern hotel<br>in London
+                        Renewable Energy <br> Development
                     </h3>
                     <h4 class="project-category">
-                      Architecture
+                      Renewable Energy
                     </h4>
-                    <div class="project-zoom"></div>
                   </figcaption>
                 </figure>
               </a>
             </div>
             <div class="project">
-              <a href="img/projects/4-480x880.jpg" title="project 4">
+              <a  href="#"  data-toggle="modal" data-target="#advisory">
                 <figure>
-                  <img alt="" src="img/projects/4-480x880.jpg">
+                  <img alt="" src="/img/projects/6-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                      Modern hotel<br>in London
+                        Business Advisory
                     </h3>
                     <h4 class="project-category">
-                      Architecture
+                      Advisory
                     </h4>
-                    <div class="project-zoom"></div>
                   </figcaption>
                 </figure>
               </a>
             </div>
             <div class="project">
-              <a href="img/projects/5-480x880.jpg" title="project 5">
+              <a  href="#"  data-toggle="modal" data-target="#escrow">
                 <figure>
-                  <img alt="" src="img/projects/5-480x880.jpg">
+                  <img alt="" src="/img/projects/6-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                      Residential care<br> project in Paris
+                        Escrow Service
                     </h3>
                     <h4 class="project-category">
-                      Architecture
+                      Escrow
                     </h4>
-                    <div class="project-zoom"></div>
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-            <div class="project">
-              <a href="img/projects/6-480x880.jpg" title="project 6">
-                <figure>
-                  <img alt="" src="img/projects/6-480x880.jpg">
-                  <figcaption>
-                    <h3 class="project-title">
-                      Residential care<br> project in Paris
-                    </h3>
-                    <h4 class="project-category">
-                      Architecture
-                    </h4>
-                    <div class="project-zoom"></div>
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-            <div class="project">
-              <a href="img/projects/7-480x880.jpg" title="project 7">
-                <figure>
-                  <img alt="" src="img/projects/7-480x880.jpg">
-                  <figcaption>
-                    <h3 class="project-title">
-                      Residential care<br> project in Paris
-                    </h3>
-                    <h4 class="project-category">
-                      Architecture
-                    </h4>
-                    <div class="project-zoom"></div>
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-            <div class="project">
-              <a href="img/projects/8-480x880.jpg" title="project 8">
-                <figure>
-                  <img alt="" src="img/projects/8-480x880.jpg">
-                  <figcaption>
-                    <h3 class="project-title">
-                      Residential care<br> project in Paris
-                    </h3>
-                    <h4 class="project-category">
-                      Architecture
-                    </h4>
-                    <div class="project-zoom"></div>
                   </figcaption>
                 </figure>
               </a>
@@ -493,8 +578,8 @@
 
       <section class="experience section">
         <div class="container">
-          <div class="text-parallax" data-stellar-background-ratio="0.85" style="background-image: url('img/bg/text-1.jpg');">
-            <div class="text-parallax-content">12</div>
+          <div class="text-parallax" data-stellar-background-ratio="0.85" style="background-image: url('/img/bg/text-1.jpg');">
+            <div class="text-parallax-content">10</div>
           </div>
           <h4 class="experience-info wow fadeInRight"><span class="text-primary">Years of successful work</span><br> in the market</h4>
         </div>
@@ -509,41 +594,68 @@
             <strong class="fade-title-left">clients</strong>
           </header>
           <div class="section-content">
-            <ul class="clients-list">
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/1.png"></a>
-              </li>
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/2.png"></a>
-              </li>
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/3.png"></a>
-              </li>
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/4.png"></a>
-              </li>
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/5.png"></a>
-              </li>
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/1.png"></a>
-              </li>
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/2.png"></a>
-              </li>
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/3.png"></a>
-              </li>
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/4.png"></a>
-              </li>
-              <li class="client">
-                <a href="#"><img alt="" src="img/clients/5.png"></a>
-              </li>
-            </ul>
-          </div>
-          <div class="section-content">
-            <a href="#" class="btn btn-shadow-2">Work together <i class="icon-next"></i></a>
+        </div>
+        <div class="container">
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div id="customers-testimonials" class="owl-carousel" style="color: black">
+
+                  <!--TESTIMONIAL 1 -->
+                  <div class="item">
+                    <div class="shadow-effect">
+                      <img  src="/img/clients/logo_dark.png" alt="">
+                      <p>"Our collaboration with Legend Brokers in the realm of oil and gas trading has been exceptionally rewarding."</p>
+                    </div>
+                    <div class="testimonial-name">I.Krestol, Commercial Manager, Ensa Energia</div>
+                  </div>
+                  <!--END OF TESTIMONIAL 1 -->
+                  <!--TESTIMONIAL 2 -->
+                  <div class="item">
+                    <div class="shadow-effect">
+                      <img  src="/img/clients/logo lubrico.png" alt="">
+                      <p>"Their market expertise, and robust network have enabled us to optimize our trading strategies and maximize profitability."</p>
+                    </div>
+                    <div class="testimonial-name">M.Cortuk, Head of Commodities Trading, Lubrico Petrokimya A.Ş</div>
+                  </div>
+                  <!--END OF TESTIMONIAL 2 -->
+                  <!--TESTIMONIAL 3 -->
+                  <div class="item">
+                    <div class="shadow-effect">
+                      <img src="/img/clients/rencom.png" alt="">
+                      <p>"Our partnership with Legend Brokers has been instrumental in the successful sales and development of several renewable energy power plants.”.</p>
+                    </div>
+                    <div class="testimonial-name">Hamlet Tunian, CEO, Recom Technologies</div>
+                  </div>
+                  <!--END OF TESTIMONIAL 3 -->
+                  <!--TESTIMONIAL 4 -->
+                  <div class="item">
+                    <div class="shadow-effect">
+                      <img src="/img/clients/maxSolar.png" alt="">
+                      <p>"The level of professionalism and efficiency shown by Legend Brokers was impressive. Their support in procuring top-grade solar panels was invaluable to our project's success."</p>
+                    </div>
+                    <div class="testimonial-name">M.Giorgos, Project Manager, MaxSolar Inc.</div>
+                  </div>
+                  <!--END OF TESTIMONIAL 4 -->
+                  <!--TESTIMONIAL 5 -->
+                  <div class="item">
+                    <div class="shadow-effect">
+                      <img src="/img/clients/jarlin.png" alt="">
+                      <p>"Teaming up with Legend Brokers enabled us to navigate complex regulatory environments and secure funding efficiently.”</p>
+                    </div>
+                    <div class="testimonial-name">J.Sarafyan, Sales Manager, Jarlene Investments.</div>
+                  </div>
+                  <div class="item">
+                    <div class="shadow-effect">
+                      <img src="/img/clients/wms-marine-services-logo.png" alt="">
+                      <p>"When it comes to support, Legend brokers are always on top of the list, they never are late with submitting their reports.”</p>
+                    </div>
+                    <div class="testimonial-name">Kerstol Katvabia, Accounts Manager, World Marine Services.</div>
+                  </div>
+                  <!--END OF TESTIMONIAL 5 -->
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -559,10 +671,9 @@
           <div class="section-content">
             <div class="row-base row">
               <div class="col-address col-base col-md-4">
-                +7 (212) 654-33-35<br>
-                +7 (212) 287-85-22<br>
-                info@goarch.com<br>
-                USA, New York, 57 Quigley Bridge
+                +971 (58) 930 4438<br>
+                Info@LegendBrokers.com<br>
+                Global Formations Office 611, 6th Floor,Fairmont Dubai, Sheikh Zayed Road, Dubai, United Arab Emirates
               </div>
               <div class="col-base  col-md-8">
                 <form class="js-ajax-form">
@@ -604,43 +715,7 @@
       </section>
 
       <!-- Footer -->
-
-      <footer id="footer" class="footer">
-        <div class="container">
-          <div class="row-base row">
-            <div class="col-base text-left-md col-md-4">
-              <a href="#" class="brand">
-                go<span class="text-primary">.</span>arch
-              </a>
-            </div>
-            <div class="text-center-md col-base col-md-4">
-              <a href="https://themeforest.net/user/murren20" class="author-link">
-                by Murren20
-              </a>
-            </div>
-            <div class="text-right-md col-base col-md-4">
-              © go.arch 2016. All Rights Reserved.
-            </div>
-          </div>
-        </div>
-      </footer>
-
-      <!-- Lines -->
-
-      <div class="page-lines">
-        <div class="container">
-          <div class="col-line col-xs-4">
-            <div class="line"></div>
-          </div>
-          <div class="col-line col-xs-4">
-            <div class="line"></div>
-          </div>
-          <div class="col-line col-xs-4">
-            <div class="line"></div>
-            <div class="line"></div>
-          </div>
-        </div>
-      </div>
+      @include('layouts.footer')
     </div>
   </div>
 @endsection
