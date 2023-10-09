@@ -593,7 +593,42 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
             <h2 class="section-title">Our <span class="text-primary">clients</span></h2>
             <strong class="fade-title-left">clients</strong>
           </header>
-          <div class="section-content">
+          <br>
+            <div class="container" id="testimonial">
+              <div class="quoteLoop">
+                <blockquote class="quote"> <img src="/img/clients/logo_dark.png" width="40%" height="40%" alt=""/>
+                  <h5>&nbsp;<br>
+                    &rdquo;Our collaboration with Legend Brokers in the realm of oil and gas trading has been exceptionally rewarding.&rdquo;<br>
+                    <small>I.Krestol, Commercial Manager, Ensa Energia</small></h5>
+                </blockquote>
+                <blockquote class="quote"> <img src="/img/clients/logo lubrico.png" width="40%" height="40%" alt=""/>
+                  <h5>&nbsp;<br>
+                    &ldquo;Their market expertise, and robust network have enabled us to optimize our trading strategies and maximize profitability. &rdquo;<br>
+                    <small>M.Cortuk, Head of Commodities Trading, Lubrico Petrokimya A.Ş</small></h5>
+                </blockquote>
+                <blockquote class="quote"> <img src="/img/clients/rencom.png" width="40%" height="40%" alt=""/>
+                    <h5>&nbsp;<br>
+                      &ldquo;Our partnership with Legend Brokers has been instrumental in the successful sales and development of several renewable energy power plants. &rdquo;<br>
+                      <small>M.Cortuk, Head of Commodities Trading, Lubrico Petrokimya A.Ş</small></h5>
+                  </blockquote>
+                  <blockquote class="quote"> <img src="/img/clients/maxSolar.png" width="40%" height="40%" alt=""/>
+                    <h5>&nbsp;<br>
+                      &ldquo;The level of professionalism and efficiency shown by Legend Brokers was impressive. Their support in procuring top-grade solar panels was invaluable to our project's success. &rdquo;<br>
+                      <small>M.Giorgos, Project Manager, MaxSolar Inc.</small></h5>
+                  </blockquote>
+                  <blockquote class="quote"> <img src="/img/clients/jarlin.png" width="40%" height="40%" alt=""/>
+                    <h5>&nbsp;<br>
+                      &ldquo;Teaming up with Legend Brokers enabled us to navigate complex regulatory environments and secure funding efficiently. &rdquo;<br>
+                      <small>M.Cortuk, Head of Commodities Trading, Lubrico Petrokimya A.Ş</small></h5>
+                  </blockquote>
+                  <blockquote class="quote"> <img src="/img/clients/wms-marine-services-logo.png" width="40%" height="40%" alt=""/>
+                    <h5>&nbsp;<br>
+                      &ldquo;When it comes to support, Legend brokers are always on top of the list, they never are late with submitting their reports. &rdquo;<br>
+                      <small>Kerstol Katvabia, Accounts Manager, World Marine Services</small></h5>
+                  </blockquote>
+              </div>
+            </div>
+          {{-- <div class="section-content">
         </div>
         <div class="container">
 
@@ -656,7 +691,7 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
         </div>
       </section>
 

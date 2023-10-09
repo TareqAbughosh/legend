@@ -14,10 +14,35 @@
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" media="screen">
+<link href="/css/style.css" rel="stylesheet" media="screen">
 <style>
-    .shadow-effect {
-                background: #fff;
+    #testimonial {
+	background: #D8D8D8;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#989898', endColorstr='#585858',GradientType=1 );
+	padding: 50px 0 50px 0;
+    color: #c5a47e;
+    border-radius: 30px;
+}
+
+.quoteLoop {
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.quote {
+	margin: 10px 30px;
+	height: inherit;
+	top: 0px;
+	display: none;
+	text-align: center;
+}
+    .modal-content {
+        background-color: #D8D8D8 !important;
+    }
+    /* .shadow-effect {
+                background-color: #D8D8D8;
                 padding: 20px;
                 border-radius: 4px;
                 text-align: center;
@@ -85,7 +110,7 @@
                 transform-origin: 50% 50% 0;
                 transition: all 250ms ease-out 0s;
                 width: 20px;
-            }
+            } */
     </style>
 </head>
 <body>
@@ -118,23 +143,41 @@
     </div>
 
     <!-- Header -->
-
-    <header id="top" class="header-home">
-      <div class="brand-panel">
-        <a href="#top" class="brand js-target-scroll">
+    @php
+        $welcome = Route::current()->getName() == 'welcome' ? true : false;
+    @endphp
+    <header id="top" class="{{$welcome ? 'header-home' : 'header-inner'}}">
+        <div class="brand-panel">
+            <a href="#" class="brand">
+              go<span class="text-primary">.</span>arch
+            </a>
+            <div class="brand-name">Go.arch</div>
+          </div>
+      <div class="brand-panel" style="{{!$welcome ? 'height: 25%;' : ''}}">
+        <a href="/" class="brand js-target-scroll">
             {{-- <img style="align-items: center;
             display: flex;
             justify-content: flex-start;" src="/img/Legend Icon White.png" /> --}}
 
           Legend<span class="text-primary"> </span>Brokers
         </a>
-        <div class="brand-name">Legend Brokers</div>
-        <div class="slide-number">
+        <div class="brand-name" style="{{!$welcome ? 'display: none;' : ''}}">Legend Brokers</div>
+        <div class="slide-number" style="{{!$welcome ? 'display: none;' : ''}}">
           <span class="current-number text-primary">0<span class="count">1</span></span>
           <sup><span class="delimiter">/</span> 0<span class="total-count"></span></sup>
         </div>
       </div>
-      <div class="header-phone">+7 (212) 674-25-10</div>
+      <div class="header-phone">+971 (58) 930 4438</div>
+      @if(!$welcome)
+      <div class="vertical-panel-content">
+        <div class="vertical-panel-info">
+            <div class="line"></div>
+         </div>
+        <ul class="social-list">
+            <li><a href="https://www.linkedin.com/company/legendbrokerslimited/" class="fa fa-linkedin" target="_blank"></a></li>
+         </ul>
+      </div>
+      @else
       <div class="vertical-panel"></div>
       <div class="vertical-panel-content">
         <div class="vertical-panel-info">
@@ -142,12 +185,10 @@
             <div class="line"></div>
          </div>
         <ul class="social-list">
-          <li><a href="" class="fa fa-instagram"></a></li>
-          <li><a href="" class="fa fa-twitter"></a></li>
-          <li><a href="" class="fa fa-behance"></a></li>
-          <li><a href="" class="fa fa-facebook"></a></li>
+          <li><a href="https://www.linkedin.com/company/legendbrokerslimited/" class="fa fa-linkedin" target="_blank"></a></li>
          </ul>
       </div>
+      @endif
 
       <!-- Navigation Desctop -->
 
@@ -166,10 +207,28 @@
             <li>
               <a href="projects.html">Services</a>
               <ul>
-                <li><a href="projects.html">Projects - List</a></li>
+                <li><a href="#"> Commodity Trading </a>
+                    <ul>
+                        <li>
+                            <a href="{{route('oil')}}">Oil and Gas Trading </a>
+                        </li>
+                        <li>
+                            <a href="#">Renewable Energy</a>
+                        </li>
+                        <li>
+                            <a href="#">Metals Trading.</a>
+                        </li>
+                    </ul>
+                    </li>
                 <li>
-                  <a href="project.html">Project - details</a>
+                  <a href="#">Business Advisory</a>
                 </li>
+                <li>
+                    <a href="#">Renewable Energy Development</a>
+                  </li>
+                  <li>
+                    <a href="#">Escrow Services</a>
+                  </li>
               </ul>
             </li>
             <li>
@@ -250,55 +309,62 @@
 
 <!-- SCRIPTS -->
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script src="js/owl.carousel.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/smoothscroll.js"></script>
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/jquery.stellar.min.js"></script>
+<script src="/js/jquery.magnific-popup.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
 <script src="https://kit.fontawesome.com/95cf922473.js" crossorigin="anonymous"></script>
 <!-- SLIDER REVOLUTION -->
-<script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
-<script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+<script src="/js/rev-slider/jquery.themepunch.tools.min.js"></script>
+<script src="/js/rev-slider/jquery.themepunch.revolution.min.js"></script>
 <script>
-jQuery(document).ready(function($) {
-        		"use strict";
-        		//  TESTIMONIALS CAROUSEL HOOK
-		        $('#customers-testimonials').owlCarousel({
-		            loop: true,
-		            center: true,
-		            items: 3,
-		            margin: 0,
-		            autoplay: true,
-		            dots:true,
-		            autoplayTimeout: 8500,
-		            smartSpeed: 450,
-		            responsive: {
-		              0: {
-		                items: 1
-		              },
-		              768: {
-		                items: 2
-		              },
-		              1170: {
-		                items: 3
-		              }
-		            }
-		        });
-        	});
+    function fade($ele) {
+    $ele.fadeIn(1000).delay(3000).fadeOut(1000, function() {
+        var $next = $(this).next('.quote');
+        fade($next.length > 0 ? $next : $(this).parent().children().first());
+   });
+}
+fade($('.quoteLoop > .quote').first());
+// jQuery(document).ready(function($) {
+//         		"use strict";
+//         		//  TESTIMONIALS CAROUSEL HOOK
+// 		        $('#customers-testimonials').owlCarousel({
+// 		            loop: true,
+// 		            center: true,
+// 		            items: 3,
+// 		            margin: 0,
+// 		            autoplay: true,
+// 		            dots:true,
+// 		            autoplayTimeout: 8500,
+// 		            smartSpeed: 450,
+// 		            responsive: {
+// 		              0: {
+// 		                items: 1
+// 		              },
+// 		              768: {
+// 		                items: 2
+// 		              },
+// 		              1170: {
+// 		                items: 3
+// 		              }
+// 		            }
+// 		        });
+//         	});
 </script>
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS   -->
-<script src="js/rev-slider/revolution.extension.actions.min.js"></script>
-<script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
-<script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
-<script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
-<script src="js/rev-slider/revolution.extension.migration.min.js"></script>
-<script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
-<script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
-<script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
-<script src="js/rev-slider/revolution.extension.video.min.js"></script>
-<script src="js/interface.js"></script>
+<script src="/js/rev-slider/revolution.extension.actions.min.js"></script>
+<script src="/js/rev-slider/revolution.extension.carousel.min.js"></script>
+<script src="/js/rev-slider/revolution.extension.kenburn.min.js"></script>
+<script src="/js/rev-slider/revolution.extension.layeranimation.min.js"></script>
+<script src="/js/rev-slider/revolution.extension.migration.min.js"></script>
+<script src="/js/rev-slider/revolution.extension.navigation.min.js"></script>
+<script src="/js/rev-slider/revolution.extension.parallax.min.js"></script>
+<script src="/js/rev-slider/revolution.extension.slideanims.min.js"></script>
+<script src="/js/rev-slider/revolution.extension.video.min.js"></script>
+<script src="/js/interface.js"></script>
 </body>
 </html>

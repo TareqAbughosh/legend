@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name("home");
+
+Route::prefix('/commodity-trading')->group(function () {
+    Route::get('/oil-and-gas', function () {
+        return view('oil');
+    })->name('oil');
+});
