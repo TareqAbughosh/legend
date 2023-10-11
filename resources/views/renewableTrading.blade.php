@@ -77,10 +77,10 @@
 
         <!-- Home -->
 
-        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6">
+        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6" style="background-image: url(https://unece.org/sites/default/files/user_upload/renewable_energy.jpg)">
           <div class="container">
             <header class="main-header">
-              <h1>Empowering the Energy Sector</h1>
+              <h1> Empowering the Energy Sector</h1>
             </header>
           </div>
 
@@ -108,26 +108,28 @@
           <div class="col-primary col-md-8">
             <article class="post">
               <header class="post-header">
-                <h3> Trade Oil and Gas with Confidence</h3>
+                <h3> Trade Renewable Energy with Confidence</h3>
               </header>
-              <p>At Legend Brokers, our Oil and Gas trading division stands as a beacon of excellence in the industry. With a wealth of experience and a deep understanding of the global energy market, we navigate the complexities of Oil and Gas trading with precision. We provide our clients with unmatched insights, enabling them to make informed decisions in a volatile market landscape.</p>
+              <p>At Legend Brokers, we offer a comprehensive range of high-quality products from tier one manufacturers. Our extensive selection, coupled with our commitment to fast delivery dates, ensures that you have access to the latest and most reliable renewable energy solutions.
+                We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipments across +65 countries. In small letters, this achievement translates to a remarkable reduction of 15.8 billion KG CO2 emissions over 25 years, equivalent to removing +3.5 million cars from the road or planting +28.7 million trees.  Try to have icons here if possible
+            </p>
 
               <p>
                 <h4>Key Highlights:</h4>
                 <ul class="live type2">
-                <li><b>Global Reach</b>: We operate on a global scale, over 300 million barrels, facilitating transactions across borders and continents.</li>
-                <li><b>Market Expertise</b>: Our team of experts possesses extensive +10 years knowledge of oil and gas markets, providing valuable insights.</li>
-                <li><b>Risk Management</b>: We employ robust risk management strategies to safeguard your investments.</li>
-                <li><b>Transparency</b>: Our transactions are characterized by transparency and integrity.</li>
+                <li><b>Global Impact</b>: Our renewable energy trading operations have a significant global impact, contributing to a 15.8 KG of CO2 emission reduction for a cleaner and more sustainable planet.</li>
+                <li><b>Technology Leadership</b>: We collaborate with cutting-edge manufacturers to bring you the latest innovations in renewable energy solutions.</li>
+                <li><b>Environmental Commitment</b>: Our focus on environmental responsibility extends to every aspect of our renewable energy trading.</li>
+                <li><b>Reliability Guarantee</b>: We offer a reliability guarantee, ensuring that the renewable energy products you receive meet the highest quality standards.</li>
               </ul></p>
 
               <p>
                 <h4>Services Offered:</h4>
                 <ul class="live type2">
-                <li><b>Trading Expertise</b>:  We offer a wide range of trading services, including spot and futures contracts.</li>
-                <li><b>Supply Chain Management</b>: Our end-to-end supply chain partnerships network optimize logistics and reduce costs.</li>
-                <li><b>Market Analysis</b>: We provide real-time market analysis to help you make informed decisions.</li>
-                <li><b>Regulatory Complianc</b>: We ensure strict adherence to all regulatory requirements.</li>
+                <li><b>Product Diversity</b>: Our extensive product range covers a wide spectrum of renewable energy solutions, from solar panels to wind turbines.</li>
+                <li><b>Tailored Solutions</b>: We understand that each renewable energy project is unique. Our team specializes in creating customized solutions to meet your specific needs.</li>
+                <li><b>Market prices</b>: We provide real-time market prices to help you stay competitive in the marke.</li>
+                <li><b>Regulatory Compliance</b>: We help you find products that are acceptable to be imported according to every countries’ regulatory requirements.</li>
               </ul></p>
 
               <div class="container">
@@ -170,24 +172,46 @@
                     </div>
                   </div>
               </div>
+              <div class="container">
+                <h2>Our Renewable Energy Products:</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Solar PV Panels</h4>
+                                <p><strong>Efficiency</strong> High-quality panels can have efficiencies upwards of 20%.</p>
+                                <p><strong>Durability</strong>: Look for panels that can withstand environmental stress and have a life expectancy of 25+ years.</p>
+                                <p><strong>Warranty</strong>: A performance guarantee is important, often 25 years for panels.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Inverters</h4>
+                                <p><strong>Efficiency</strong>: It’s important to choose inverters with high conversion efficiency, generally above 95%.</p>
+                                <p><strong>Reliability</strong>: Inverters should have robust safety features and fault detections.</p>
+                                <p><strong>Warranty</strong>: Generally, inverters come with a warranty period of 5-10 years.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Batteries</h4>
+                                <p><strong>Capacity & Depth of Discharge</strong> Choose batteries with sufficient storage capacity and an optimal depth of discharge for your system’s needs.</p>
+                                <p><strong>Lifespan</strong>: High-quality batteries can have a lifespan of 10+ years.</p>
+                                <p><strong>Warranty</strong>: Generally, battery warranties range from 5 to 10 years.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
               <p> <h4><a href="{{route('contact')}}">Contact us:</a></h4>
-                To learn more about our Oil and Gas Trading services or to discuss your specific requirements, please don't hesitate to Contact Us today.
+                Partnering with a trusted Broker like Legend Brokers ensures that your renewable energy project will be equipped with the best components available for your specific project, optimizing performance and longevity through our wide range of partnerships with Manufacturers.
               </p>
             </article>
-          </div>
-          <div class="col-secondary col-md-4">
-            <div class="widget widget_recent_post">
-              <h3 class="widget-title">Live Oil Price Data Visualization</h3>
-              <div style="position: relative; padding-bottom: 75%; height: 0;">
-                <iframe
-                  src="https://datasource.kapsarc.org/explore/embed/dataset/spot-prices-for-crude-oil-and-petroleum-products/analyze/?sort=-period&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiZXVyb3BlX2JyZW50X3Nwb3RfcHJpY2VfZm9iX2RhaWx5IiwiY29sb3IiOiIjZmZkOTJmIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWV9LHsidHlwZSI6ImxpbmUiLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJjdXNoaW5nX29rX3d0aV9zcG90X3ByaWNlX2ZvYl9kYWlseSIsImNvbG9yIjoiI2U3OGFjMyIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlfV0sInhBeGlzIjoicGVyaW9kIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoiZGF5Iiwic29ydCI6IiIsImNvbmZpZyI6eyJkYXRhc2V0Ijoic3BvdC1wcmljZXMtZm9yLWNydWRlLW9pbC1hbmQtcGV0cm9sZXVtLXByb2R1Y3RzIiwib3B0aW9ucyI6eyJzb3J0IjoiLXBlcmlvZCJ9fX1dLCJ0aW1lc2NhbGUiOiIiLCJzaW5nbGVBeGlzIjp0cnVlLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&static=false&datasetcard=false"
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                  frameborder="0"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -43,8 +43,7 @@
                 data-splitin="chars"
                 data-splitout="none"
                 data-responsive_offset="on"
-                data-elementdelay="0.05" style="  color: white;
-                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Oil & gas trading
+                data-elementdelay="0.05" style="  color: #ffffff; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);z-index: 2;">Oil & gas trading
               </div>
 
               <!-- Layer 2 -->
@@ -60,8 +59,8 @@
                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                 data-start="1500"
                 data-splitin="none"
-                data-splitout="none" style="  color: white;
-                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Consistently Exceeding Expectations: Over +5 Million Barrels Sold and Counting<br>
+                data-splitout="none" style="  color: #ffffff;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);z-index: 2;">Consistently Exceeding Expectations: Over +5 Million Barrels Sold and Counting<br>
               </div>
 
               <!-- Layer 3 -->
@@ -327,22 +326,22 @@
                 <div class="service-item">
                   {{-- <img alt="" width="46" src="/img/img-icon/icon-architecture.png"> --}}
                   <i class="fas fa-star fa-lg"></i>
-                  <h4>Excellence in Everything</h4>
+                  <h5>Excellence in Everything</h5>
                 </div>
                 <div class="service-item">
                   {{-- <img alt="" width="58" src="/img/img-icon/icon-interiors.png"> --}}
                   <i class="fas fa-building fa-lg"></i>
-                  <h4>Trust as our Foundation.</h4>
+                  <h5>Trust as our Foundation.</h5>
                 </div>
                 <div class="service-item">
                   {{-- <img alt="" width="58" src="/img/img-icon/icon-planing.png"> --}}
                   <i class="fas fa-lightbulb fa-lg"></i>
-                  <h4>Forward-Thinking Adaptability</h4>
+                  <h5>Forward-Thinking Adaptability</h5>
                 </div>
               </div>
               <div class="clearfix visible-sm"></div>
               <div class="col-base col-about-img col-sm-6 col-md-4">
-                <img alt="" class="img-responsive" src="/img/Legend Icon White.png">
+                <img alt="" class="img-responsive" src="/img/Legend Icon White.png" style="box-shadow: none;">
               </div>
             </div>
           </div>
@@ -356,7 +355,7 @@
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title" style="color: black !important;">Commodity Trading</h4>
+                    <h4 class="modal-title" style="color: black !important;">Trade Oil and Gas with Confidence</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
@@ -369,13 +368,74 @@
                                 With a track record of excellence, we take pride in having sold over +5 million barrels, and our journey continues.
                                 </p>
                                 <p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="trading-metal-confidence">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Trade Metals with Confidence</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                                <p>
+                                    <b>Trade Metals with Confidence:</b> <br>
+                                    At Legend Brokers we navigate the complexities of metals trading with precision. We offer a wide range of metals, including precious and base metals, and provide clients with unmatched knowledge and support. Our dedication to reliability, transparency, and efficiency ensures that every metals trading transaction is executed with professionalism and expertise.
+                                                                    </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="trading-renewable-confidence">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Trade Renewable Energy Equipment with Confidence</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                                <p>
                                     <b>Trade Renewable Energy Equipment with Confidence:</b> <br>
 At Legend Brokers, we offer a comprehensive range of high-quality products from tier one manufacturers. Our extensive selection, coupled with our commitment to fast delivery dates, ensures that you have access to the latest and most reliable renewable energy solutions.
 We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipments across +65 countries. In small letters, this achievement translates to a remarkable reduction of 15.8 billion KG CO2 emissions over 25 years, equivalent to removing +3.5 million cars from the road or planting +28.7 million trees.  Try to have icons here if possible
-                                </p>
-                                <p>
-                                    <b>Trade Metals with Confidence:</b> <br>
-At Legend Brokers we navigate the complexities of metals trading with precision. We offer a wide range of metals, including precious and base metals, and provide clients with unmatched knowledge and support. Our dedication to reliability, transparency, and efficiency ensures that every metals trading transaction is executed with professionalism and expertise.
                                 </p>
                         </div>
                         <div class="col-md-6">
@@ -386,6 +446,7 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
 
@@ -409,13 +470,7 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
                             <p><b>Renewable Energy Development. </b> <br>
                                 At Legend Brokers we are dedicated to advancing clean and sustainable energy solutions that pave the way for a greener future. With a focus on innovation and collaboration, we specialize in the development of renewable energy projects and the distribution of high-quality equipment. Our goal is to make a positive impact by reducing carbon footprints, mitigating environmental impact, and creating a sustainable energy landscape for generations to come.
                                 </p>
-                                <p>
-                                    <b>Renewable Energy Consultation.</b> <br>
-                                    Legend Brokers is your gateway to informed decisions and sustainable choices. Our team of experts provides tailored guidance on renewable energy solutions, helping you navigate the complexities of the industry. From project feasibility assessments to equipment selection and regulatory compliance, we offer comprehensive consultation services. Whether you're a seasoned player or a newcomer to renewable energy, we empower you to make impactful choices that benefit both your business and the planet.</p>
-                                <p>
-                                    <b>Trade Metals with Confidence:</b> <br>
-At Legend Brokers we navigate the complexities of metals trading with precision. We offer a wide range of metals, including precious and base metals, and provide clients with unmatched knowledge and support. Our dedication to reliability, transparency, and efficiency ensures that every metals trading transaction is executed with professionalism and expertise.
-                                </p>
+
                         </div>
                         <div class="col-md-6">
                             <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
@@ -425,6 +480,75 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="renewable-energy-consultation">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Renewable Energy Consultation</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                <b>Renewable Energy Consultation.</b> <br>
+                                Legend Brokers is your gateway to informed decisions and sustainable choices. Our team of experts provides tailored guidance on renewable energy solutions, helping you navigate the complexities of the industry. From project feasibility assessments to equipment selection and regulatory compliance, we offer comprehensive consultation services. Whether you're a seasoned player or a newcomer to renewable energy, we empower you to make impactful choices that benefit both your business and the planet.</p>
+                            <p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="market-research-analysis">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Market Research & Analysis</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                <b>Market Research & Analysis.</b> <br>
+                                At Legend Brokers, we excel in providing data-driven insights into market trends, customer behavior, and competitor strategies. Our in-depth analysis empowers businesses to make informed choices, seize opportunities, and stay ahead of the curve. With a commitment to meticulous research, we are your trusted partner in navigating the complexities of the market, ensuring that your strategies are grounded in robust data and insights. </p>
+
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
 
@@ -437,7 +561,7 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title" style="color: black !important;">Business Advisory </h4>
+                    <h4 class="modal-title" style="color: black !important;">Strategic Planning & Management </h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
@@ -448,12 +572,40 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
                             <p><b>Strategic Planning & Management:</b> <br>
                                 At Legend Brokers, we specialize in crafting meticulous strategies that align with your unique objectives and market dynamics. Our approach encompasses long-term vision, goal setting, and performance monitoring. With a focus on precision and innovation, we provide the strategic guidance needed to thrive in an ever-evolving business environment. Partner with us to chart a course to success and realize your business aspirations.
                                 </p>
-                                <p>
-                                    <b>Market Research & Analysis.</b> <br>
-                                    At Legend Brokers, we excel in providing data-driven insights into market trends, customer behavior, and competitor strategies. Our in-depth analysis empowers businesses to make informed choices, seize opportunities, and stay ahead of the curve. With a commitment to meticulous research, we are your trusted partner in navigating the complexities of the market, ensuring that your strategies are grounded in robust data and insights. </p>
-                                <p>
-                                    <b>Organizational Development & Expansion.</b> <br>
-                                    At Legend Brokers, we offer comprehensive solutions to enhance your organizational structure, cultivate talent, and foster leadership development. Our expertise extends to risk management, compliance, and global expansion strategies. We provide the guidance and support needed to navigate complex regulatory environments, seize international opportunities, and create a stronger, more adaptable organization. Partner with us to unlock your business's full potential and embark on a path of continuous growth and expansion. </p>
+                            </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Organizational-Development-Expansion">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Organizational Development & Expansion</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                <b>Organizational Development & Expansion.</b> <br>
+                                At Legend Brokers, we offer comprehensive solutions to enhance your organizational structure, cultivate talent, and foster leadership development. Our expertise extends to risk management, compliance, and global expansion strategies. We provide the guidance and support needed to navigate complex regulatory environments, seize international opportunities, and create a stronger, more adaptable organization. Partner with us to unlock your business's full potential and embark on a path of continuous growth and expansion. </p>
+
                         </div>
                         <div class="col-md-6">
                             <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
@@ -463,6 +615,7 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
 
@@ -475,7 +628,7 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title" style="color: black !important;">Escrow Service </h4>
+                    <h4 class="modal-title" style="color: black !important;">Commodity Trading </h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
@@ -485,10 +638,6 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
                         <div class="col-md-6">
                             <p><b>Commodity Trading.</b> <br>
                                 At Legend Brokers, our impartial and secure escrow platform ensures that funds and assets are safeguarded during complex commodity trades. We act as a neutral third party, overseeing transactions with transparency and integrity. Whether it's facilitating seamless mergers and acquisitions, ensuring real estate deal transparency, or mitigating risks in international trade, our commitment to neutrality guarantees equitable and transparent commodity trading transactions. With us as your trusted partner, you can engage in commodity trading with confidence and peace of mind. </p>
-                                <p>
-                                    <b>Energy Project Financing.</b> <br>
-                                    At Legend Brokers, we provide a secure and impartial platform to protect funds and assets during the financing of energy projects. Our role as a trusted intermediary ensures that all parties involved have the assurance they need to move forward with these complex endeavors. From securing funding for sustainable energy initiatives to facilitating transparent transactions, our commitment to neutrality and security guarantees that your energy projects are supported by a foundation of trust and reliability.</p>
-                                <p>
                         </div>
                         <div class="col-md-6">
                             <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
@@ -498,6 +647,41 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Energy-Project-Financing">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="color: black;">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black !important;">Energy Project Financing</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                <b>Energy Project Financing.</b> <br>
+                                At Legend Brokers, we provide a secure and impartial platform to protect funds and assets during the financing of energy projects. Our role as a trusted intermediary ensures that all parties involved have the assurance they need to move forward with these complex endeavors. From securing funding for sustainable energy initiatives to facilitating transparent transactions, our commitment to neutrality and security guarantees that your energy projects are supported by a foundation of trust and reliability.</p>
+                            <p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
 
@@ -516,10 +700,40 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
                   <img alt="" src="/img/projects/6-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                        Commodity Trading
+                        Trade Oil and Gas with Confidence
                     </h3>
                     <h4 class="project-category">
                       Trading
+                    </h4>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="project">
+              <a  href="#"  data-toggle="modal" data-target="#trading-renewable-confidence">
+                <figure>
+                  <img alt="" src="/img/projects/6-480x880.jpg">
+                  <figcaption>
+                    <h3 class="project-title">
+                        Trade Renewable Energy <br> Equipment with Confidence
+                    </h3>
+                    <h4 class="project-category">
+                      Renewable Energy
+                    </h4>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="project">
+              <a  href="#"  data-toggle="modal" data-target="#trading-metal-confidence">
+                <figure>
+                  <img alt="" src="/img/projects/6-480x880.jpg">
+                  <figcaption>
+                    <h3 class="project-title">
+                        Trade Metals with Confidence
+                    </h3>
+                    <h4 class="project-category">
+                      Trade
                     </h4>
                   </figcaption>
                 </figure>
@@ -534,42 +748,102 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
                         Renewable Energy <br> Development
                     </h3>
                     <h4 class="project-category">
-                      Renewable Energy
+                      Development
                     </h4>
                   </figcaption>
                 </figure>
               </a>
             </div>
             <div class="project">
-              <a  href="#"  data-toggle="modal" data-target="#advisory">
-                <figure>
-                  <img alt="" src="/img/projects/6-480x880.jpg">
-                  <figcaption>
-                    <h3 class="project-title">
-                        Business Advisory
-                    </h3>
-                    <h4 class="project-category">
-                      Advisory
-                    </h4>
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-            <div class="project">
-              <a  href="#"  data-toggle="modal" data-target="#escrow">
-                <figure>
-                  <img alt="" src="/img/projects/6-480x880.jpg">
-                  <figcaption>
-                    <h3 class="project-title">
-                        Escrow Service
-                    </h3>
-                    <h4 class="project-category">
-                      Escrow
-                    </h4>
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
+                <a  href="#"  data-toggle="modal" data-target="#renewable-energy-consultation">
+                  <figure>
+                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <figcaption>
+                      <h3 class="project-title">
+                         Renewable Energy <br> Consultation
+                      </h3>
+                      <h4 class="project-category">
+                        Consultation
+                      </h4>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="project">
+                <a  href="#"  data-toggle="modal" data-target="#advisory">
+                  <figure>
+                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <figcaption>
+                      <h3 class="project-title">
+                        Strategic Planning <br> & Management
+                      </h3>
+                      <h4 class="project-category">
+                        Planning
+                      </h4>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="project">
+                <a  href="#"  data-toggle="modal" data-target="#market-research-analysis">
+                  <figure>
+                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <figcaption>
+                      <h3 class="project-title">
+                        Market Research <br> & Analysis
+                      </h3>
+                      <h4 class="project-category">
+                        Research
+                      </h4>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="project">
+                <a  href="#"  data-toggle="modal" data-target="#Organizational-Development-Expansion">
+                  <figure>
+                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <figcaption>
+                      <h3 class="project-title">
+                        Organizational Development <br> & Expansion
+                      </h3>
+                      <h4 class="project-category">
+                        Development
+                      </h4>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="project">
+                <a  href="#"  data-toggle="modal" data-target="#escrow">
+                  <figure>
+                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <figcaption>
+                      <h3 class="project-title">
+                        Commodity Trading
+                      </h3>
+                      <h4 class="project-category">
+                        Trading
+                      </h4>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="project">
+                <a  href="#"  data-toggle="modal" data-target="#Energy-Project-Financing">
+                  <figure>
+                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <figcaption>
+                      <h3 class="project-title">
+                        Energy Project Financing
+                      </h3>
+                      <h4 class="project-category">
+                        Financing
+                      </h4>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
           </div>
         </div>
       </section>
@@ -595,103 +869,39 @@ At Legend Brokers we navigate the complexities of metals trading with precision.
           </header>
           <br>
             <div class="container" id="testimonial">
-              <div class="quoteLoop">
-                <blockquote class="quote"> <img src="/img/clients/logo_dark.png" width="40%" height="40%" alt=""/>
-                  <h5>&nbsp;<br>
-                    &rdquo;Our collaboration with Legend Brokers in the realm of oil and gas trading has been exceptionally rewarding.&rdquo;<br>
-                    <small>I.Krestol, Commercial Manager, Ensa Energia</small></h5>
-                </blockquote>
-                <blockquote class="quote"> <img src="/img/clients/logo lubrico.png" width="40%" height="40%" alt=""/>
-                  <h5>&nbsp;<br>
-                    &ldquo;Their market expertise, and robust network have enabled us to optimize our trading strategies and maximize profitability. &rdquo;<br>
-                    <small>M.Cortuk, Head of Commodities Trading, Lubrico Petrokimya A.Ş</small></h5>
-                </blockquote>
-                <blockquote class="quote"> <img src="/img/clients/rencom.png" width="40%" height="40%" alt=""/>
-                    <h5>&nbsp;<br>
-                      &ldquo;Our partnership with Legend Brokers has been instrumental in the successful sales and development of several renewable energy power plants. &rdquo;<br>
-                      <small>M.Cortuk, Head of Commodities Trading, Lubrico Petrokimya A.Ş</small></h5>
-                  </blockquote>
-                  <blockquote class="quote"> <img src="/img/clients/maxSolar.png" width="40%" height="40%" alt=""/>
-                    <h5>&nbsp;<br>
-                      &ldquo;The level of professionalism and efficiency shown by Legend Brokers was impressive. Their support in procuring top-grade solar panels was invaluable to our project's success. &rdquo;<br>
-                      <small>M.Giorgos, Project Manager, MaxSolar Inc.</small></h5>
-                  </blockquote>
-                  <blockquote class="quote"> <img src="/img/clients/jarlin.png" width="40%" height="40%" alt=""/>
-                    <h5>&nbsp;<br>
-                      &ldquo;Teaming up with Legend Brokers enabled us to navigate complex regulatory environments and secure funding efficiently. &rdquo;<br>
-                      <small>M.Cortuk, Head of Commodities Trading, Lubrico Petrokimya A.Ş</small></h5>
-                  </blockquote>
-                  <blockquote class="quote"> <img src="/img/clients/wms-marine-services-logo.png" width="40%" height="40%" alt=""/>
-                    <h5>&nbsp;<br>
-                      &ldquo;When it comes to support, Legend brokers are always on top of the list, they never are late with submitting their reports. &rdquo;<br>
-                      <small>Kerstol Katvabia, Accounts Manager, World Marine Services</small></h5>
-                  </blockquote>
-              </div>
+                <div class="quoteLoop">
+                    <blockquote class="quote"> <img src="/img/clients/logo_dark.png" width="40%" height="40%" alt=""/>
+                      <h5 style="font-size: 16px;">&nbsp;<br>
+                        &rdquo;Our collaboration with Legend Brokers in the realm of oil and gas trading has been exceptionally rewarding.&rdquo;<br>
+                        <small>I.Krestol, Commercial Manager, Ensa Energia</small></h5>
+                    </blockquote>
+                    <blockquote class="quote"> <img src="/img/clients/logo lubrico.png" width="40%" height="40%" alt=""/>
+                      <h5 style="font-size: 16px;">&nbsp;<br>
+                        &ldquo;Their market expertise, and robust network have enabled us to optimize our trading strategies and maximize profitability. &rdquo;<br>
+                        <small>M.Cortuk, Head of Commodities Trading, Lubrico Petrokimya A.Ş</small></h5>
+                    </blockquote>
+                    <blockquote class="quote"> <img src="/img/clients/rencom.png" width="40%" height="40%" alt=""/>
+                        <h5 style="font-size: 16px;">&nbsp;<br>
+                          &ldquo;Our partnership with Legend Brokers has been instrumental in the successful sales and development of several renewable energy power plants. &rdquo;<br>
+                          <small>Hamlet Tunian, CEO, Recom Technologies</small></h5>
+                      </blockquote>
+                      <blockquote class="quote"> <img src="/img/clients/maxSolar.png" width="40%" height="40%" alt=""/>
+                        <h5 style="font-size: 16px;">&nbsp;<br>
+                          &ldquo;The level of professionalism and efficiency shown by Legend Brokers was impressive. Their support in procuring top-grade solar panels was invaluable to our project's success. &rdquo;<br>
+                          <small>M.Giorgos, Project Manager, MaxSolar Inc.</small></h5>
+                      </blockquote>
+                      <blockquote class="quote"> <img src="/img/clients/jarlin.png" width="40%" height="40%" alt=""/>
+                        <h5 style="font-size: 16px;">&nbsp;<br>
+                          &ldquo;Teaming up with Legend Brokers enabled us to navigate complex regulatory environments and secure funding efficiently. &rdquo;<br>
+                          <small>J.Sarafyan, Sales Manager, Jarlene Investments</small></h5>
+                      </blockquote>
+                      <blockquote class="quote"> <img src="/img/clients/wms-marine-services-logo.png" width="40%" height="40%" alt=""/>
+                        <h5 style="font-size: 16px;">&nbsp;<br>
+                          &ldquo;When it comes to support, Legend brokers are always on top of the list, they never are late with submitting their reports. &rdquo;<br>
+                          <small>Kerstol Katvabia, Accounts Manager, World Marine Services</small></h5>
+                      </blockquote>
+                  </div>
             </div>
-          {{-- <div class="section-content">
-        </div>
-        <div class="container">
-
-            <div class="row">
-              <div class="col-sm-12">
-                <div id="customers-testimonials" class="owl-carousel" style="color: black">
-
-                  <!--TESTIMONIAL 1 -->
-                  <div class="item">
-                    <div class="shadow-effect">
-                      <img  src="/img/clients/logo_dark.png" alt="">
-                      <p>"Our collaboration with Legend Brokers in the realm of oil and gas trading has been exceptionally rewarding."</p>
-                    </div>
-                    <div class="testimonial-name">I.Krestol, Commercial Manager, Ensa Energia</div>
-                  </div>
-                  <!--END OF TESTIMONIAL 1 -->
-                  <!--TESTIMONIAL 2 -->
-                  <div class="item">
-                    <div class="shadow-effect">
-                      <img  src="/img/clients/logo lubrico.png" alt="">
-                      <p>"Their market expertise, and robust network have enabled us to optimize our trading strategies and maximize profitability."</p>
-                    </div>
-                    <div class="testimonial-name">M.Cortuk, Head of Commodities Trading, Lubrico Petrokimya A.Ş</div>
-                  </div>
-                  <!--END OF TESTIMONIAL 2 -->
-                  <!--TESTIMONIAL 3 -->
-                  <div class="item">
-                    <div class="shadow-effect">
-                      <img src="/img/clients/rencom.png" alt="">
-                      <p>"Our partnership with Legend Brokers has been instrumental in the successful sales and development of several renewable energy power plants.”.</p>
-                    </div>
-                    <div class="testimonial-name">Hamlet Tunian, CEO, Recom Technologies</div>
-                  </div>
-                  <!--END OF TESTIMONIAL 3 -->
-                  <!--TESTIMONIAL 4 -->
-                  <div class="item">
-                    <div class="shadow-effect">
-                      <img src="/img/clients/maxSolar.png" alt="">
-                      <p>"The level of professionalism and efficiency shown by Legend Brokers was impressive. Their support in procuring top-grade solar panels was invaluable to our project's success."</p>
-                    </div>
-                    <div class="testimonial-name">M.Giorgos, Project Manager, MaxSolar Inc.</div>
-                  </div>
-                  <!--END OF TESTIMONIAL 4 -->
-                  <!--TESTIMONIAL 5 -->
-                  <div class="item">
-                    <div class="shadow-effect">
-                      <img src="/img/clients/jarlin.png" alt="">
-                      <p>"Teaming up with Legend Brokers enabled us to navigate complex regulatory environments and secure funding efficiently.”</p>
-                    </div>
-                    <div class="testimonial-name">J.Sarafyan, Sales Manager, Jarlene Investments.</div>
-                  </div>
-                  <div class="item">
-                    <div class="shadow-effect">
-                      <img src="/img/clients/wms-marine-services-logo.png" alt="">
-                      <p>"When it comes to support, Legend brokers are always on top of the list, they never are late with submitting their reports.”</p>
-                    </div>
-                    <div class="testimonial-name">Kerstol Katvabia, Accounts Manager, World Marine Services.</div>
-                  </div>
-                  <!--END OF TESTIMONIAL 5 -->
-                </div>
-              </div>
-            </div>
-          </div> --}}
         </div>
       </section>
 

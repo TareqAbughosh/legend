@@ -21,4 +21,18 @@ Route::prefix('/commodity-trading')->group(function () {
     Route::get('/oil-and-gas', function () {
         return view('oil');
     })->name('oil');
+    Route::get('/renewable-energy-trading', function () {
+        return view('renewableTrading');
+    })->name('renewableTrading');
+    Route::get('/metal-trading', function () {
+        return view('metalTrading');
+    })->name('metalTrading');
 });
+
+Route::get('/renewable-energy-development', function () {
+    return view('renewableDevelopment');
+})->name('renewableDevelopment');
+
+Route::get('/contact-us', function(){
+    return "lol";
+})->name('contact');

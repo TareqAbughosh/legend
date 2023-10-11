@@ -1092,6 +1092,17 @@ label.error{
   background: linear-gradient(to top,  rgba(39,39,39,1) 0%,rgba(39,39,39,0.95) 26%,rgba(39,39,39,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+.forcefullwidth_wrapper_tp_banner:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: -webkit-linear-gradient(bottom, rgba(39,39,39,1) 0%,rgba(39,39,39,0.95) 5%,rgba(39,39,39,0.6) 20%);
+    background: linear-gradient(to top, rgba(39,39,39,1) 0%,rgba(39,39,39,0.95) 5%,rgba(39,39,39,0.6) 20%);
+}
+
 .main-projects,
 .main-contacts{
   padding: 34.2vmin 0 34vmin;
@@ -2492,7 +2503,8 @@ img.mfp-img{
   }
 
   .col-about-img img{
-    max-width: calc(100% + 5px);
+    max-width: calc(50% + 5px);
+    margin-left: 15%;
   }
 
 

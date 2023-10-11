@@ -16,11 +16,17 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link href="/css/style.css" rel="stylesheet" media="screen">
 <style>
+    blockquote footer, blockquote small, blockquote .small {
+        color: #c5a47e !important;
+    }
+    blockquote {
+    border-left: 0 !important;
+}
     #testimonial {
-	background: #D8D8D8;
+	background: #272727;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#989898', endColorstr='#585858',GradientType=1 );
 	padding: 50px 0 50px 0;
-    color: #c5a47e;
+    color: #fff;
     border-radius: 30px;
 }
 
@@ -41,76 +47,6 @@
     .modal-content {
         background-color: #D8D8D8 !important;
     }
-    /* .shadow-effect {
-                background-color: #D8D8D8;
-                padding: 20px;
-                border-radius: 4px;
-                text-align: center;
-        border:1px solid #ECECEC;
-                box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
-            }
-            #customers-testimonials .shadow-effect p {
-                font-family: inherit;
-                font-size: 17px;
-                line-height: 1.5;
-                margin: 0 0 17px 0;
-                font-weight: 300;
-            }
-            .testimonial-name {
-                margin: -17px auto 0;
-                display: table;
-                width: auto;
-                background: #c5a47e;
-                padding: 9px 35px;
-                border-radius: 12px;
-                text-align: center;
-                color: black;
-                box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
-            }
-            #customers-testimonials .item {
-                text-align: center;
-                padding: 50px;
-                    margin-bottom:80px;
-                opacity: 1;
-                -webkit-transform: scale3d(0.8, 0.8, 1);
-                transform: scale3d(0.8, 0.8, 1);
-                -webkit-transition: all 0.3s ease-in-out;
-                -moz-transition: all 0.3s ease-in-out;
-                transition: all 0.3s ease-in-out;
-            }
-            #customers-testimonials .owl-item.active.center .item {
-                opacity: 1;
-                -webkit-transform: scale3d(1.0, 1.0, 1);
-                transform: scale3d(1.0, 1.0, 1);
-            }
-            #customers-testimonials .owl-item img {
-                transform-style: preserve-3d;
-                max-width: 90px;
-                margin: 0 auto 17px;
-            }
-            #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
-    #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
-                background: #3190E7;
-                transform: translate3d(0px, -50%, 0px) scale(0.7);
-            }
-    #customers-testimonials.owl-carousel .owl-dots{
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-    }
-    #customers-testimonials.owl-carousel .owl-dots .owl-dot{
-        display: inline-block;
-    }
-            #customers-testimonials.owl-carousel .owl-dots .owl-dot span {
-                background: #3190E7;
-                display: inline-block;
-                height: 20px;
-                margin: 0 2px 5px;
-                transform: translate3d(0px, -50%, 0px) scale(0.3);
-                transform-origin: 50% 50% 0;
-                transition: all 250ms ease-out 0s;
-                width: 20px;
-            } */
     </style>
 </head>
 <body>
@@ -144,14 +80,13 @@
 
     <!-- Header -->
     @php
-        $welcome = Route::current()->getName() == 'welcome' ? true : false;
+        $welcome = Route::current()->getName() == 'home' ? true : false;
     @endphp
     <header id="top" class="{{$welcome ? 'header-home' : 'header-inner'}}">
         <div class="brand-panel">
-            <a href="#" class="brand">
-              go<span class="text-primary">.</span>arch
+            <a href="/" class="brand">
+              Legend<span class="text-primary"> </span>Brokers
             </a>
-            <div class="brand-name">Go.arch</div>
           </div>
       <div class="brand-panel" style="{{!$welcome ? 'height: 25%;' : ''}}">
         <a href="/" class="brand js-target-scroll">
@@ -198,14 +133,14 @@
             Legend<span class="text-primary"></span>Brokers
           </a>
           <ul class="navbar-desctop-menu">
-            <li class="active">
+            <li class="{{$welcome ? 'active' : ''}}">
               <a href="{{route("home")}}">Home</a>
             </li>
             <li>
               <a href="about.html">About us</a>
             </li>
-            <li>
-              <a href="projects.html">Services</a>
+            <li class="{{ Route::current()->getPrefix() == '/commodity-trading' ? 'active' : ''}}">
+              <a href="#">Services</a>
               <ul>
                 <li><a href="#"> Commodity Trading </a>
                     <ul>
@@ -213,10 +148,10 @@
                             <a href="{{route('oil')}}">Oil and Gas Trading </a>
                         </li>
                         <li>
-                            <a href="#">Renewable Energy</a>
+                            <a href="{{route('renewableTrading')}}">Renewable Energy</a>
                         </li>
                         <li>
-                            <a href="#">Metals Trading.</a>
+                            <a href="{{route('metalTrading')}}">Metals Trading.</a>
                         </li>
                     </ul>
                     </li>
@@ -224,7 +159,7 @@
                   <a href="#">Business Advisory</a>
                 </li>
                 <li>
-                    <a href="#">Renewable Energy Development</a>
+                    <a href="{{route('renewableDevelopment')}}">Renewable Energy Development</a>
                   </li>
                   <li>
                     <a href="#">Escrow Services</a>
@@ -329,31 +264,33 @@
    });
 }
 fade($('.quoteLoop > .quote').first());
-// jQuery(document).ready(function($) {
-//         		"use strict";
-//         		//  TESTIMONIALS CAROUSEL HOOK
-// 		        $('#customers-testimonials').owlCarousel({
-// 		            loop: true,
-// 		            center: true,
-// 		            items: 3,
-// 		            margin: 0,
-// 		            autoplay: true,
-// 		            dots:true,
-// 		            autoplayTimeout: 8500,
-// 		            smartSpeed: 450,
-// 		            responsive: {
-// 		              0: {
-// 		                items: 1
-// 		              },
-// 		              768: {
-// 		                items: 2
-// 		              },
-// 		              1170: {
-// 		                items: 3
-// 		              }
-// 		            }
-// 		        });
-//         	});
+
+$(document).ready(function () {
+    var steps = $(".step");
+    var currentStep = 0;
+
+    function showStep(stepIndex) {
+        steps.removeClass("active");
+        steps.eq(stepIndex).addClass("active");
+    }
+
+    function animateOnScroll() {
+        var windowHeight = $(window).height();
+        var scrollPosition = $(window).scrollTop();
+
+        steps.each(function (index, step) {
+            var stepOffset = $(step).offset().top;
+
+            if (stepOffset < scrollPosition + windowHeight * 0.75) {
+                currentStep = index;
+            }
+        });
+
+        showStep(currentStep);
+    }
+
+    $(window).on("scroll", animateOnScroll);
+});
 </script>
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS   -->
 <script src="/js/rev-slider/revolution.extension.actions.min.js"></script>
