@@ -87,7 +87,7 @@
 
         <!-- Home -->
 
-        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6" style="background-image: url(https://unece.org/sites/default/files/user_upload/renewable_energy.jpg)">
+        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6" style="background-image: url(https://images.unsplash.com/photo-1587168173357-99c7e95fb5cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2luZCUyMHR1cmJpbmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80)">
           <div class="container">
             <header class="main-header">
               <h1> Powering a Sustainable Future</h1>

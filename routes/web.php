@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactUsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,6 +34,20 @@ Route::get('/renewable-energy-development', function () {
     return view('renewableDevelopment');
 })->name('renewableDevelopment');
 
+Route::get('/business-advisory', function () {
+    return view('businessAdvisory');
+})->name('business-advisory');
+
+Route::get('/escrow-services', function () {
+    return view('escrow');
+})->name('escrow');
+
 Route::get('/contact-us', function(){
-    return "lol";
+    return view('contactUs');
 })->name('contact');
+
+Route::post('/contact-us', [ContactUsController::class, 'contactUs'])->name('contact_us_post');
+
+Route::get('/about-us', function () {
+    return view('aboutUs');
+})->name('aboutUs');

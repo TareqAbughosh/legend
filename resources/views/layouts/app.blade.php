@@ -137,9 +137,9 @@
               <a href="{{route("home")}}">Home</a>
             </li>
             <li>
-              <a href="about.html">About us</a>
+              <a href="{{route('aboutUs')}}">About us</a>
             </li>
-            <li class="{{ Route::current()->getPrefix() == '/commodity-trading' ? 'active' : ''}}">
+            <li class="{{ Route::current()->getPrefix() == '/commodity-trading' || Route::current()->getName() == 'renewableDevelopment' || Route::current()->getName() == 'business-advisory' || Route::current()->getName() == 'escrow' ? 'active' : ''}}">
               <a href="#">Services</a>
               <ul>
                 <li><a href="#"> Commodity Trading </a>
@@ -156,17 +156,17 @@
                     </ul>
                     </li>
                 <li>
-                  <a href="#">Business Advisory</a>
+                  <a href="{{route('business-advisory')}}">Business Advisory</a>
                 </li>
                 <li>
                     <a href="{{route('renewableDevelopment')}}">Renewable Energy Development</a>
                   </li>
                   <li>
-                    <a href="#">Escrow Services</a>
+                    <a href="{{route('escrow')}}">Escrow Services</a>
                   </li>
               </ul>
             </li>
-            <li>
+            {{-- <li>
               <a href="blog.html">Blog</a>
               <ul>
                 <li><a href="blog.html">Blog - List</a></li>
@@ -174,9 +174,9 @@
                   <a href="blog-details.html">Blog - Post</a>
                 </li>
               </ul>
-            </li>
+            </li> --}}
             <li>
-              <a href="contacts.html">Contacts</a>
+              <a href="{{route('contact')}}">Contacts</a>
             </li>
           </ul>
         </div>
