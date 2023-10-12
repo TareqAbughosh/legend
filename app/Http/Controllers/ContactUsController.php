@@ -18,7 +18,7 @@ class ContactUsController extends Controller
 
         try {
         Mail::send([], $request->all(), function($message) use($request) {
-            $message->to('info@optienergies.com', 'Opti energies')->subject
+            $message->to('info@legendbrokers.com', 'Legend Brokers')->subject
                ('A new contact!')
             ->subject("A new contact!")
             ->html("<!DOCTYPE html>

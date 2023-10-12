@@ -77,7 +77,7 @@
 
         <!-- Home -->
 
-        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6" style="background-image: url(https://unece.org/sites/default/files/user_upload/renewable_energy.jpg)">
+        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6" style='background-image: url("/img/projects/Renewable Energy Trading.jpeg")'>
           <div class="container">
             <header class="main-header">
               <h1> Empowering the Energy Sector</h1>

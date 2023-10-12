@@ -921,19 +921,20 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                 Global Formations Office 611, 6th Floor,Fairmont Dubai, Sheikh Zayed Road, Dubai, United Arab Emirates
               </div>
               <div class="col-base  col-md-8">
-                <form class="js-ajax-form">
+                <form method="post" action="{{route('contact_us_post')}}">
+                    @csrf
                   <div class="row-field row">
                     <div class="col-field col-sm-6 col-md-4">
                       <div class="form-group">
-                        <input type="text" class="form-control" name="name" placeholder="Name">
+                        <input type="text" class="form-control" name="name" placeholder="Name *" required>
                       </div>
                       <div class="form-group">
-                        <input type="email" class="form-control" name="email" required placeholder="Email *">
+                        <input type="email" class="form-control" name="email" required placeholder="Email *" required>
                       </div>
                     </div>
                     <div class="col-field col-sm-6 col-md-4">
                       <div class="form-group">
-                        <input type="tel" class="form-control" name="phone" placeholder="Phone">
+                        <input type="tel" class="form-control" name="phone" placeholder="Phone *" required>
                       </div>
                       <div class="form-group">
                         <input type="text" class="form-control" name="company" placeholder="Company">
@@ -941,15 +942,19 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                     </div>
                     <div class="col-field col-sm-12 col-md-4">
                       <div class="form-group">
-                        <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                        <textarea class="form-control" name="message" placeholder="Message *" required></textarea>
                       </div>
                     </div>
-                    <div class="col-message col-field col-sm-12">
-                      <div class="form-group">
-                        <div class="success-message"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
-                        <div class="error-message">We're sorry, but something went wrong</div>
+                    <div class="{{session('success') || session('error') ? '' : 'col-message'}} col-field col-sm-12">
+                        <div class="form-group">
+                          @if(session('success'))
+                          <div class="alert alert-success"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
+                          @endif
+                          @if(session('error'))
+                          <div class="alert alert-danger">We're sorry, but something went wrong</div>
+                          @endif
+                        </div>
                       </div>
-                    </div>
                   </div>
                   <div class="form-submit text-right"><button type="submit" class="btn btn-shadow-2 wow swing">Send <i class="icon-next"></i></button></div>
                 </form>

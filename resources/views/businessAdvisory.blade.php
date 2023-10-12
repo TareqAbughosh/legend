@@ -77,7 +77,7 @@
 
         <!-- Home -->
 
-        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6" style="background-image: url(https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/2zlYPOQC0YLOnko9UtepFy/1fd4b3fb7308eecfeeac964a29ed6796/GettyImages-1174452698.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000&h=)">
+        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6" style='background-image: url("/img/projects/Business Advisory.jpeg")'>
           <div class="container">
             <header class="main-header">
               <h1> Empowering Businesses to Thrive </h1>

@@ -77,7 +77,7 @@
 
         <!-- Home -->
 
-        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6" style="background-image: url(https://online.hbs.edu/Style%20Library/api/resize.aspx?imgpath=/PublishingImages/blog/posts/financial-accounting-skills.jpg&w=1200&h=630)">
+        <main class="main main-inner main-blog bg-blog" data-stellar-background-ratio="0.6" style='background-image: url("/img/projects/escrow.jpeg")'>
           <div class="container">
             <header class="main-header">
               <h1>Secure Transactions, Assured Confidence</h1>

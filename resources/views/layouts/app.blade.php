@@ -221,7 +221,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            {{-- <li>
               <a href="#">Resources <i class="fa fa-angle-down"></i></a>
               <ul>
                 <li><a href="blog.html">Blog - List</a></li>
@@ -229,9 +229,9 @@
                   <a href="blog-details.html">Blog - Post</a>
                 </li>
               </ul>
-            </li>
+            </li> --}}
             <li>
-              <a href="contacts.html">Contact us</a>
+              <a href="{{route('contact')}}">Contact us</a>
             </li>
           </ul>
         </div>
