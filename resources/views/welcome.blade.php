@@ -60,7 +60,7 @@
                 data-start="1500"
                 data-splitin="none"
                 data-splitout="none" style="  color: #ffffff;
-                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);z-index: 2;">Consistently Exceeding Expectations: Over <strong>+5 Million</strong> Barrels Sold and Counting<br>
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);z-index: 2;">Consistently Exceeding Expectations: Over <strong class="test">+5 Million</strong> Barrels Sold and Counting<br>
               </div>
 
               <!-- Layer 3 -->

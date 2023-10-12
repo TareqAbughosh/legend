@@ -264,7 +264,7 @@
    });
 }
 fade($('.quoteLoop > .quote').first());
-
+$('.test').css({"all":"revert"});
 $(document).ready(function () {
     var steps = $(".step");
     var currentStep = 0;
