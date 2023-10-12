@@ -200,11 +200,8 @@
 
         <div class="collapse navbar-collapse" id="navbar-mobile">
           <ul class="navbar-nav-mobile">
-            <li class="active">
+            <li class="{{$welcome ? 'active' : ''}}">
               <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="about.html">About us</a>
             </li>
               <li class="{{ Route::current()->getPrefix() == '/commodity-trading' || Route::current()->getName() == 'renewableDevelopment' || Route::current()->getName() == 'business-advisory' || Route::current()->getName() == 'escrow' ? 'active' : ''}}">
                 <a href="#">Services <i class="fa fa-angle-down"></i></a>
@@ -221,17 +218,16 @@
                               <a href="{{route('metalTrading')}}">Metals Trading.</a>
                           </li>
                       </ul>
-                      </li>
-                      <li>
-                        <a href="{{route('business-advisory')}}">Business Advisory</a>
-                      </li>
-                      <li>
-                          <a href="{{route('renewableDevelopment')}}">Renewable Energy Development</a>
-                        </li>
-                        <li>
-                          <a href="{{route('escrow')}}">Escrow Services</a>
-                        </li>
+                </li>
+                <li>
+                    <a href="{{route('business-advisory')}}">Business Advisory</a>
+                  </li>
                   <li>
+                      <a href="{{route('renewableDevelopment')}}">Renewable Energy Development</a>
+                    </li>
+                    <li>
+                      <a href="{{route('escrow')}}">Escrow Services</a>
+                    </li>
             </li>
             <li class="{{Route::current()->getName() == "aboutUs" ? 'active' : ''}}">
                 <a href="{{route('aboutUs')}}">About us</a>
