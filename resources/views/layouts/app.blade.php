@@ -206,7 +206,7 @@
               <li class="{{ Route::current()->getPrefix() == '/commodity-trading' || Route::current()->getName() == 'renewableDevelopment' || Route::current()->getName() == 'business-advisory' || Route::current()->getName() == 'escrow' ? 'active' : ''}}">
                 <a href="#">Services <i class="fa fa-angle-down"></i></a>
                 <ul>
-                  <li><a href="#"> Commodity Trading </a>
+                  <li><a href="#"> Commodity Trading <i class="fa fa-angle-down"></i></a>
                       <ul>
                           <li>
                               <a href="{{route('oil')}}">Oil and Gas Trading </a>
