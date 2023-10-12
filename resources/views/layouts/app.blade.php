@@ -228,6 +228,7 @@
                     <li>
                       <a href="{{route('escrow')}}">Escrow Services</a>
                     </li>
+                </ul>
             </li>
             <li class="{{Route::current()->getName() == "aboutUs" ? 'active' : ''}}">
                 <a href="{{route('aboutUs')}}">About us</a>
