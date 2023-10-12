@@ -60,7 +60,7 @@
                 data-start="1500"
                 data-splitin="none"
                 data-splitout="none" style="  color: #ffffff;
-                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);z-index: 2;">Consistently Exceeding Expectations: Over <strong class="test">+5 Million</strong> Barrels Sold and Counting<br>
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);z-index: 2;">Consistently Exceeding Expectations: Over +5 Million Barrels Sold and Counting<br>
               </div>
 
               <!-- Layer 3 -->
@@ -131,7 +131,7 @@
                 data-splitin="none"
                 data-splitout="none" style="  color: white;
                 text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">
-                Leading the Green Revolution: Successfully Distributed +1.1 GW of Tier 1 P.V. Panels Across <strong>+65</strong> Countries
+                Leading the Green Revolution: Successfully Distributed +1.1 GW of Tier 1 P.V. Panels Across +65 Countries
               </div>
 
               <!-- Layer 3 -->
@@ -202,7 +202,7 @@
                 data-start="1500"
                 data-splitin="none"
                 data-splitout="none" style="  color: white;
-                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Securing Trust, Every Time: Facilitating Transactions Worth <strong>+300 Million</strong> with a Perfect 100% Completion Rate
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Securing Trust, Every Time: Facilitating Transactions Worth +300 Million with a Perfect 100% Completion Rate
               </div>
 
               <!-- Layer 3 -->
@@ -273,7 +273,7 @@
                   data-start="1500"
                   data-splitin="none"
                   data-splitout="none" style="
-                  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Unlocking Insights: Delivered Over <strong>250 Comprehensive Reports</strong> and In-Depth Analyses for Informed Business Decisions.
+                  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Unlocking Insights: Delivered Over 250 Comprehensive Reports and In-Depth Analyses for Informed Business Decisions.
                 </div>
 
                 <!-- Layer 3 -->

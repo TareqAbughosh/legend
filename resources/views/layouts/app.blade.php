@@ -136,9 +136,6 @@
             <li class="{{$welcome ? 'active' : ''}}">
               <a href="{{route("home")}}">Home</a>
             </li>
-            <li>
-              <a href="{{route('aboutUs')}}">About us</a>
-            </li>
             <li class="{{ Route::current()->getPrefix() == '/commodity-trading' || Route::current()->getName() == 'renewableDevelopment' || Route::current()->getName() == 'business-advisory' || Route::current()->getName() == 'escrow' ? 'active' : ''}}">
               <a href="#">Services</a>
               <ul>
@@ -175,6 +172,9 @@
                 </li>
               </ul>
             </li> --}}
+            <li class="{{Route::current()->getName() == "aboutUs" ? 'active' : ''}}">
+                <a href="{{route('aboutUs')}}">About us</a>
+              </li>
             <li>
               <a href="{{route('contact')}}">Contacts</a>
             </li>
@@ -201,26 +201,41 @@
         <div class="collapse navbar-collapse" id="navbar-mobile">
           <ul class="navbar-nav-mobile">
             <li class="active">
-              <a href="#">Home <i class="fa fa-angle-down"></i></a>
-              <ul>
-                <li><a href="../light/index.html">Home - Light</a></li>
-                <li class="active">
-                  <a href="index.html">— Home - Dark</a>
-                </li>
-              </ul>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="about.html">About us</a>
             </li>
-            <li>
-              <a href="#">Services <i class="fa fa-angle-down"></i></a>
-              <ul>
-                <li><a href="projects.html">Projects - List</a></li>
-                <li>
-                  <a href="project.html">Project - details</a>
-                </li>
-              </ul>
+              <li class="{{ Route::current()->getPrefix() == '/commodity-trading' || Route::current()->getName() == 'renewableDevelopment' || Route::current()->getName() == 'business-advisory' || Route::current()->getName() == 'escrow' ? 'active' : ''}}">
+                <a href="#">Services <i class="fa fa-angle-down"></i></a>
+                <ul>
+                  <li><a href="#"> Commodity Trading </a>
+                      <ul>
+                          <li>
+                              <a href="{{route('oil')}}">Oil and Gas Trading </a>
+                          </li>
+                          <li>
+                              <a href="{{route('renewableTrading')}}">Renewable Energy</a>
+                          </li>
+                          <li>
+                              <a href="{{route('metalTrading')}}">Metals Trading.</a>
+                          </li>
+                      </ul>
+                      </li>
+                      <li>
+                        <a href="{{route('business-advisory')}}">Business Advisory</a>
+                      </li>
+                      <li>
+                          <a href="{{route('renewableDevelopment')}}">Renewable Energy Development</a>
+                        </li>
+                        <li>
+                          <a href="{{route('escrow')}}">Escrow Services</a>
+                        </li>
+                  <li>
             </li>
+            <li class="{{Route::current()->getName() == "aboutUs" ? 'active' : ''}}">
+                <a href="{{route('aboutUs')}}">About us</a>
+              </li>
             {{-- <li>
               <a href="#">Resources <i class="fa fa-angle-down"></i></a>
               <ul>
@@ -231,7 +246,7 @@
               </ul>
             </li> --}}
             <li>
-              <a href="{{route('contact')}}">Contact us</a>
+              <a href="{{route('contact')}}" class="{{Route::current()->getName() == "contact" ? 'active' : ''}}">Contact us</a>
             </li>
           </ul>
         </div>
@@ -264,7 +279,7 @@
    });
 }
 fade($('.quoteLoop > .quote').first());
-$('.test').css({"all":"revert"});
+
 $(document).ready(function () {
     var steps = $(".step");
     var currentStep = 0;
