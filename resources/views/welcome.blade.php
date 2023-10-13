@@ -340,7 +340,7 @@
                 </div>
               </div>
               <div class="clearfix visible-sm"></div>
-              <div class="col-base col-about-img col-sm-6 col-md-4">
+              <div class="col-base col-about-img col-sm-6 col-md-4" style="margin-top: 12%">
                 <img alt="" class="img-responsive" src="/img/Legend Icon White.png" style="box-shadow: none;">
               </div>
             </div>
@@ -645,6 +645,20 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                     </div>
                 </div>
 
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                <b>Energy Project Financing.</b> <br>
+                                At Legend Brokers, we provide a secure and impartial platform to protect funds and assets during the financing of energy projects. Our role as a trusted intermediary ensures that all parties involved have the assurance they need to move forward with these complex endeavors. From securing funding for sustainable energy initiatives to facilitating transparent transactions, our commitment to neutrality and security guarantees that your energy projects are supported by a foundation of trust and reliability.</p>
+                            <p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Modal footer -->
                 <div class="modal-footer">
                     <a href="{{route('contact')}}" class="btn btn-secondary">Contact us</a>
@@ -692,7 +706,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
         <div class="container">
           <h2 class="section-title">Our <span class="text-primary">Markets</span></h2>
         </div>
-        <div class="section-content">
+        <div class="section-content" style="margin-top: 5.1em;">
           <div class="projects-carousel js-projects-carousel">
             <div class="project project-light">
               <a href="#"  data-toggle="modal" data-target="#trading">
@@ -700,7 +714,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                   <img alt="" src="/img/projects/6-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                        Trade Oil and Gas with Confidence
+                        Trade Oil and Gas
                     </h3>
                     <h4 class="project-category">
                       Trading
@@ -715,7 +729,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                   <img alt="" src="/img/projects/6-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                        Trade Renewable Energy <br> Equipment with Confidence
+                        Trade Renewable Energy
                     </h3>
                     <h4 class="project-category">
                       Renewable Energy
@@ -730,7 +744,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                   <img alt="" src="/img/projects/6-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                        Trade Metals with Confidence
+                        Trade Metals
                     </h3>
                     <h4 class="project-category">
                       Trade
@@ -820,25 +834,10 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                     <img alt="" src="/img/projects/6-480x880.jpg">
                     <figcaption>
                       <h3 class="project-title">
-                        Commodity Trading
+                        Escrow Service
                       </h3>
                       <h4 class="project-category">
-                        Trading
-                      </h4>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-              <div class="project">
-                <a  href="#"  data-toggle="modal" data-target="#Energy-Project-Financing">
-                  <figure>
-                    <img alt="" src="/img/projects/6-480x880.jpg">
-                    <figcaption>
-                      <h3 class="project-title">
-                        Energy Project Financing
-                      </h3>
-                      <h4 class="project-category">
-                        Financing
+                        Escrow service
                       </h4>
                     </figcaption>
                   </figure>

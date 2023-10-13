@@ -122,28 +122,8 @@
           </header>
           <div class="section-content">
             <div class="row-services row-base row">
-              <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item">
-                  <h4>Our Core Philosophy:</h4>
-                  <ul class="live type2">
-                    <li><b>Innovation</b>: We constantly explore new technologies and solutions to stay at the forefront of industry trends.</li>
-                    <li><b>Sustainability</b>: Our commitment to environmental responsibility drives our renewable energy initiatives.</li>
-                    <li><b>Professionalism</b>: We uphold the highest standards of integrity, transparency, and ethical conduct in all our business endeavors.</li>
-                  </ul>
-                </div>
-              </div>
               <div class="clearfix visible-sm"></div>
-              <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="service-item">
-                  <h4>Mission & Vision</h4>
-                  <ul class="live type2">
-                    <li><b>Our Mission</b>: To empower businesses and industries with innovative solutions for a sustainable future.</li>
-                    <li><b>Our Vision</b>: To be the global leader in providing comprehensive business solutions, driven by excellence, sustainability, and professionalism.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="clearfix visible-sm"></div>
-              <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
+              <div class="col-base col-service wow fadeInUp justify-content-center" data-wow-delay="0.6s">
                 <div class="service-item">
                   <h4>Global Reach, Local Expertise</h4>
                   <p>FWe take pride in our global presence, having worked in over +65 countries across Europe, the Middle East, Singapore, and the Philippines. Our extensive experience and strong partnerships have enabled us to consistently exceed expectations and drive success in every endeavor.</p>
@@ -151,15 +131,53 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="services" class="services section">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title"><span class="text-primary">Our</span> Core Values</h2>
+          </header>
+          <div class="section-content">
+            <div class="row-services row-base row">
+                <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                      <h4>Our Core Philosophy:</h4>
+                      <ul class="live type2">
+                        <li><b>Innovation</b>: We constantly explore new technologies and solutions to stay at the forefront of industry trends.</li>
+                        <li><b>Sustainability</b>: Our commitment to environmental responsibility drives our renewable energy initiatives.</li>
+                        <li><b>Professionalism</b>: We uphold the highest standards of integrity, transparency, and ethical conduct in all our business endeavors.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="clearfix visible-sm"></div>
+                  <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                      <h4>Mission & Vision</h4>
+                      <ul class="live type2">
+                        <li><b>Our Mission</b>: To empower businesses and industries with innovative solutions for a sustainable future.</li>
+                        <li><b>Our Vision</b>: To be the global leader in providing comprehensive business solutions, driven by excellence, sustainability, and professionalism.</li>
+                      </ul>
+                    </div>
+                  </div>
+        </div>
+      </section>
+
+      <section id="services" class="services section">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title"><span class="text-primary">Our</span> Achievements</h2>
+          </header>
+          <div class="section-content">
+            <div class="row-services row-base row">
           <div class="col-base col-service col-sm-6 col-md-10 wow fadeInUp" data-wow-delay="0.3s">
             <div class="service-item">
-              <h4>Our Achievements:</h4>
               <ul class="live type2">
                 <li><b>Oil and Gas Trading</b>: "Consistently Exceeding Expectations: Over +5 Million Barrels Sold and Counting."</li>
                 <li><b>Renewable Energy</b>: "Leading the Green Revolution: Successfully Distributed +1.1 GW of Tier 1 P.V. Panels Across +65 Countries. In small letters Slashing Carbon Footprint by 15.8 Billion KG CO2 - Equivalent to Removing +3.5 Million Cars or Planting +28.7 Million Trees Over 25 Years."</li>
                 <li><b>Escrow Services</b>: "Securing Trust, Every Time: Facilitating Transactions Worth +300 Million with a Perfect 100% Completion Rate."</li>
                 <li><b>Business Advisory</b>: "Unlocking Insights: Delivered Over 250 Comprehensive Reports and In-Depth Analyses for Informed Business Decisions."</li>
-                <li><b>Business Advisory</b>: "Securing Trust, Every Time: Facilitating Transactions Worth +300 Million with a Perfect 100% Completion Rate."</li>
               </ul>
             </div>
           </div>

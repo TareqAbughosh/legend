@@ -147,6 +147,9 @@
               <p> <h4><a href="{{route('contact')}}">Contact us:</a></h4>
                 To learn more about our Business Advisory services or to discuss your specific requirements, please don't hesitate to Contact Us today.
               </p>
+
+
+              <p> We bring an international outlook to help your business compete on a global scale. </p>
             </article>
           </div>
         </div>
