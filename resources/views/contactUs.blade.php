@@ -2,6 +2,31 @@
 
 @section('content')
 
+<main class="main main-inner bg-about" data-stellar-background-ratio="0.6" style="background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80);">
+    <div class="container">
+      <header class="main-header">
+        <h1>Contact us</h1>
+      </header>
+    </div>
+
+    <!-- Lines -->
+
+    <div class="page-lines">
+      <div class="container">
+        <div class="col-line col-xs-4">
+          <div class="line"></div>
+        </div>
+        <div class="col-line col-xs-4">
+          <div class="line"></div>
+        </div>
+        <div class="col-line col-xs-4">
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
 <section id="objects" class="objects section">
     <div class="container">
       <header class="section-header">
