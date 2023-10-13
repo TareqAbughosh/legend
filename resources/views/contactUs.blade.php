@@ -2,6 +2,56 @@
 
 @section('content')
 
+<section id="objects" class="objects section">
+    <div class="container">
+      <header class="section-header">
+        <h2 class="section-title">We are <span class="text-primary">worldwide</span></h2>
+      </header>
+      <div class="section-content">
+        <div class="row-services row-base row">
+            <div class="clearfix visible-sm"></div>
+            <div class="col-base col-service wow fadeInUp justify-content-center" data-wow-delay="0.6s">
+              <div class="service-item">
+                <h4>Global Reach, Local Expertise</h4>
+                <p>We take pride in our global presence, having worked in over +65 countries across Europe, the Middle East, Singapore, and the Philippines. Our extensive experience and strong partnerships have enabled us to consistently exceed expectations and drive success in every endeavor.</p>
+              </div>
+            </div>
+          </div>
+          <br>
+        <div class="objects">
+          <img alt="" class="img-responsive" src="img/map.png">
+
+
+          <div class="object-label" style="left: 58%; top: 50.4%;">
+            <div class="object-info">
+              <h3 class="object-title">Middle east</h3>
+
+            </div>
+          </div>
+
+          <div class="object-label" style="left: 50.7%; top: 20.4%;">
+            <div class="object-info">
+              <h3 class="object-title">Europe</h3>
+
+            </div>
+          </div>
+
+
+          <div class="object-label" style="left: 81%; top: 58%;">
+            <div class="object-info">
+              <h3 class="object-title">Philippines</h3>
+            </div>
+          </div>
+
+          <div class="object-label" style="left: 75%; top: 60%;">
+            <div class="object-info">
+              <h3 class="object-title">Singapore</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 <section class="contacts section">
     <div class="container">
       <header class="section-header">

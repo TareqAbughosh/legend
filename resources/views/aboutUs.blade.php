@@ -113,26 +113,6 @@
         </div>
       </section>
 
-      <!-- Services -->
-
-      <section id="services" class="services section">
-        <div class="container">
-          <header class="section-header">
-            <h2 class="section-title"><span class="text-primary">Our</span> Services</h2>
-          </header>
-          <div class="section-content">
-            <div class="row-services row-base row">
-              <div class="clearfix visible-sm"></div>
-              <div class="col-base col-service wow fadeInUp justify-content-center" data-wow-delay="0.6s">
-                <div class="service-item">
-                  <h4>Global Reach, Local Expertise</h4>
-                  <p>FWe take pride in our global presence, having worked in over +65 countries across Europe, the Middle East, Singapore, and the Philippines. Our extensive experience and strong partnerships have enabled us to consistently exceed expectations and drive success in every endeavor.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section id="services" class="services section">
         <div class="container">
@@ -143,7 +123,7 @@
             <div class="row-services row-base row">
                 <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
-                      <h4>Our Core Philosophy:</h4>
+                      <h4>Our Philosophy:</h4>
                       <ul class="live type2">
                         <li><b>Innovation</b>: We constantly explore new technologies and solutions to stay at the forefront of industry trends.</li>
                         <li><b>Sustainability</b>: Our commitment to environmental responsibility drives our renewable energy initiatives.</li>
@@ -154,10 +134,19 @@
                   <div class="clearfix visible-sm"></div>
                   <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-item">
-                      <h4>Mission & Vision</h4>
+                      <h4>Our Mission</h4>
                       <ul class="live type2">
-                        <li><b>Our Mission</b>: To empower businesses and industries with innovative solutions for a sustainable future.</li>
-                        <li><b>Our Vision</b>: To be the global leader in providing comprehensive business solutions, driven by excellence, sustainability, and professionalism.</li>
+                        <li>To empower businesses and industries with innovative solutions for a sustainable future.</li>
+
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="clearfix visible-sm"></div>
+                  <div class="col-base col-service col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                      <h4>Our Vision</h4>
+                      <ul class="live type2">
+                        <li>To be the global leader in providing comprehensive business solutions, driven by excellence, sustainability, and professionalism.</li>
                       </ul>
                     </div>
                   </div>
@@ -192,6 +181,16 @@
             <h2 class="section-title">We are <span class="text-primary">worldwide</span></h2>
           </header>
           <div class="section-content">
+            <div class="row-services row-base row">
+                <div class="clearfix visible-sm"></div>
+                <div class="col-base col-service wow fadeInUp justify-content-center" data-wow-delay="0.6s">
+                  <div class="service-item">
+                    <h4>Global Reach, Local Expertise</h4>
+                    <p>We take pride in our global presence, having worked in over +65 countries across Europe, the Middle East, Singapore, and the Philippines. Our extensive experience and strong partnerships have enabled us to consistently exceed expectations and drive success in every endeavor.</p>
+                  </div>
+                </div>
+              </div>
+              <br>
             <div class="objects">
               <img alt="" class="img-responsive" src="img/map.png">
 

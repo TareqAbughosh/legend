@@ -137,10 +137,10 @@
                 <h4>Our Impact Speaks for Itself</h4>
                 Browse through our case studies to see how we’ve made a difference in various businesses across industries. HERE please use images that are related to the below industries and write how many reports we did for each industry.
                 <ul class="live type2">
-                <li>Strategic Planning & Management. +90</li>
-                <li>Market Research & Analysis. +100</li>
-                <li>We bring an international outlook to help your business compete on a global scale.</li>
-                <li> Organizational Development & Expansion. +60</li>
+                    <li>We bring an international outlook to help your business compete on a global scale.</li>
+                    <li> Organizational Development & Expansion. +60</li>
+                    <li>Strategic Planning & Management. +90</li>
+                    <li>Market Research & Analysis. +100</li>
               </ul></p>
 
 
