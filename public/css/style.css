@@ -1273,8 +1273,8 @@ label.error{
 }
 
 .col-about-img img{
-  display: block;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    max-width: calc(50% + 5px) !important;
+    margin-left: 1% !important;
 }
 
 
@@ -2503,8 +2503,8 @@ img.mfp-img{
   }
 
   .col-about-img img{
-    max-width: calc(50% + 5px);
-    margin-left: 15%;
+    max-width: calc(50% + 5px) !important;
+    margin-left: 15% !important;
   }
 
 

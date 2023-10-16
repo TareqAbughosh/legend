@@ -47,6 +47,31 @@
     .modal-content {
         background-color: #D8D8D8 !important;
     }
+
+    .logoLoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logoLoader img {
+  width: 100px; /* Adjust the size as needed */
+  animation: breathe 2s infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Adjust the scale factor for the breath effect */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
     </style>
 </head>
 <body>
@@ -68,13 +93,8 @@
           </div>
         </div>
       </div>
-      <div class="loader-brand">
-        <div class="sk-folding-cube">
-          <div class="sk-cube1 sk-cube"></div>
-          <div class="sk-cube2 sk-cube"></div>
-          <div class="sk-cube4 sk-cube"></div>
-          <div class="sk-cube3 sk-cube"></div>
-        </div>
+      <div class="logoLoader">
+        <img src="/img/Legend Icon White.png" alt="Loader Image">
       </div>
     </div>
 
