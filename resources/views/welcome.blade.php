@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('content')
 <div class="layout">
 
@@ -31,7 +30,7 @@
                 data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-25']"
                 data-fontsize="['50','45', '35']"
                 data-lineheight="['80','75', '65']"
-                data-width="['1100','700','550']"
+                data-width="['1100','700']"
                 data-height="none"
                 data-whitespace="normal"
                 data-transform_idle="o:1;"
@@ -51,8 +50,10 @@
               <div class="slide-subtitle tp-caption tp-resizeme"
                 data-x="['right','right','right','right']" data-hoffset="['0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['75','105']"
-                data-fontsize="['18']"
-                data-whitespace="nowrap"
+                data-fontsize="['30']"
+                data-fontweight="1000"
+                data-width="['700']"
+                data-whitespace="pre-line"
                 data-transform_idle="o:1;"
                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
                 data-transform_out="opacity:0;s:1000;s:1000;"
@@ -121,14 +122,16 @@
               <div class="slide-subtitle tp-caption tp-resizeme"
                 data-x="['right','right','right','right']" data-hoffset="['0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['75','105']"
-                data-fontsize="['18']"
-                data-whitespace="nowrap"
+                data-fontsize="['30']"
+                data-width="['700']"
+                data-whitespace="pre-line"
                 data-transform_idle="o:1;"
                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
                 data-transform_out="opacity:0;s:1000;s:1000;"
                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                 data-start="1500"
                 data-splitin="none"
+                data-fontweight="1000"
                 data-splitout="none" style="  color: white;
                 text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">
                 Leading the Green Revolution: Successfully Distributed +1.1 GW of Tier 1 P.V. Panels Across +65 Countries
@@ -171,7 +174,7 @@
                 data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-25']"
                 data-fontsize="['50','45', '35']"
                 data-lineheight="['80','75', '65']"
-                data-width="['1000','700','550']"
+                data-width="['1000','700']"
                 data-height="none"
                 data-whitespace="normal"
                 data-transform_idle="o:1;"
@@ -193,8 +196,10 @@
               <div class="slide-subtitle tp-caption tp-resizeme"
                 data-x="['right','right','right','right']" data-hoffset="['0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['75','105']"
-                data-fontsize="['18']"
-                data-whitespace="nowrap"
+                data-fontsize="['30']"
+                data-width="['700']"
+                data-fontweight="1000"
+                data-whitespace="pre-line"
                 data-transform_idle="o:1;"
                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
                 data-transform_out="opacity:0;s:1000;s:1000;"
@@ -242,7 +247,7 @@
                   data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-25']"
                   data-fontsize="['50','45', '35']"
                   data-lineheight="['80','75', '65']"
-                  data-width="['1000','700','550']"
+                  data-width="['1000','700']"
                   data-height="none"
                   data-whitespace="normal"
                   data-transform_idle="o:1;"
@@ -264,8 +269,10 @@
                 <div class="slide-subtitle tp-caption tp-resizeme"
                   data-x="['right','right','right','right']" data-hoffset="['0']"
                   data-y="['middle','middle','middle','middle']" data-voffset="['75','105']"
-                  data-fontsize="['18']"
-                  data-whitespace="nowrap"
+                  data-fontsize="['30']"
+                  data-fontweight="1000"
+                  data-width="['700']"
+                  data-whitespace="pre-line"
                   data-transform_idle="o:1;"
                   data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
                   data-transform_out="opacity:0;s:1000;s:1000;"
@@ -313,40 +320,38 @@
             <strong class="fade-title-left">About</strong>
           </header>
           <div class="section-content">
-            <div class="row-base row">
-              <div class="col-base col-sm-6 col-md-4">
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
                 <h3 class="col-about-title">we turn ideas into works of art<span class="text-primary">.</span></h3>
                 <div class="col-about-info">
                   <p>At Legend Brokers, we stand as a multifaceted force in the world of business, bridging gaps, forging connections, and enabling growth. Our diverse portfolio of services spans the realms of Oil and Gas trading, Renewable Energy development, Business Advisory, and Escrow Services.
-                </p>
+                  </p>
                 </div>
               </div>
-              <div class="col-base col-about-spec col-sm-6 col-md-4">
+              <div class="col-sm-6 col-md-4 text-center"> <!-- Center the column for small screens -->
                 <h3 class="col-about-title">our<br> specialization<span class="text-primary">:</span></h3>
                 <div class="service-item">
-                  {{-- <img alt="" width="46" src="/img/img-icon/icon-architecture.png"> --}}
                   <i class="fas fa-star fa-lg"></i>
                   <h5>Excellence in Everything</h5>
                 </div>
                 <div class="service-item">
-                  {{-- <img alt="" width="58" src="/img/img-icon/icon-interiors.png"> --}}
                   <i class="fas fa-building fa-lg"></i>
                   <h5>Trust as our Foundation.</h5>
                 </div>
                 <div class="service-item">
-                  {{-- <img alt="" width="58" src="/img/img-icon/icon-planing.png"> --}}
                   <i class="fas fa-lightbulb fa-lg"></i>
                   <h5>Forward-Thinking Adaptability</h5>
                 </div>
               </div>
-              <div class="clearfix visible-sm"></div>
-              <div class="col-base col-about-img col-sm-6 col-md-4" style="margin-top: 12%">
+              <div class="col-sm-6 col-md-4 text-center col-about-img" style="margin-top: 12%;"> <!-- Center the column for small screens -->
                 <img alt="" class="img-responsive" src="/img/Legend Icon White.png" style="box-shadow: none;">
               </div>
             </div>
           </div>
         </div>
       </section>
+
+
 
       <!-- Projects -->
       <div class="modal fade" id="trading">
@@ -370,7 +375,7 @@
                                 <p>
                         </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/oil-trading1.jpeg" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -404,7 +409,7 @@
                                                                     </p>
                         </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/gold-bars.jpeg" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -439,7 +444,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                                 </p>
                         </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/Trade Renewable Energy Equipment with Confidence_ .jpeg" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -473,7 +478,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
 
                         </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/Renewable Energy Development.webp" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -507,7 +512,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                             <p>
                         </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/renewable-energy-consulting.jpeg" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -541,7 +546,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
 
                         </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/RENEWABLE ENERGY CONSULTATION .jpeg" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -574,7 +579,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                                 </p>
                             </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/Strategic-Planning-Blog-Image-1-2.jpg" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -608,7 +613,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
 
                         </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/ORGANIZATIONAL DEVELOPMENT & EXPANSION.jpeg" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -640,7 +645,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                                 At Legend Brokers, our impartial and secure escrow platform ensures that funds and assets are safeguarded during complex commodity trades. We act as a neutral third party, overseeing transactions with transparency and integrity. Whether it's facilitating seamless mergers and acquisitions, ensuring real estate deal transparency, or mitigating risks in international trade, our commitment to neutrality guarantees equitable and transparent commodity trading transactions. With us as your trusted partner, you can engage in commodity trading with confidence and peace of mind. </p>
                         </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/0_W4x4dCth-9x5IAZm.jpg" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -654,7 +659,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
                             <p>
                         </div>
                         <div class="col-md-6">
-                            <img src="https://via.placeholder.com/300" alt="Image" class="img-fluid">
+                            <img src="/img/projects/71566308_l-1.jpg" width="100%" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>

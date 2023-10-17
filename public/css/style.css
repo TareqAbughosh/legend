@@ -1274,7 +1274,7 @@ label.error{
 
 .col-about-img img{
     max-width: calc(50% + 5px) !important;
-    margin-left: 1% !important;
+    margin-left: 25% !important;
 }
 
 
@@ -1546,12 +1546,14 @@ label.error{
 }
 
 .project figure:hover .project-title{
+    color: black;
   top:30px;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .project figure:hover .project-category{
-  opacity: 0;
+    color: black;
+  opacity: 0.3;
   letter-spacing: 2em;
 }
 
