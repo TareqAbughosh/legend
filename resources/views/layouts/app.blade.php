@@ -122,7 +122,7 @@
           <sup><span class="delimiter">/</span> 0<span class="total-count"></span></sup>
         </div>
       </div>
-      <div class="header-phone">+971 (58) 930 4438</div>
+      {{-- <div class="header-phone">+971 (58) 930 4438</div> --}}
       @if(!$welcome)
       <div class="vertical-panel-content">
         <div class="vertical-panel-info">

@@ -857,7 +857,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
       <section class="experience section">
         <div class="container">
           <div class="text-parallax" data-stellar-background-ratio="0.85" style="background-image: url('/img/bg/text-1.jpg');">
-            <div class="text-parallax-content">10</div>
+            <div class="text-parallax-content">13</div>
           </div>
           <h4 class="experience-info wow fadeInRight"><span class="text-primary">Years of successful work</span><br> in the market</h4>
         </div>
