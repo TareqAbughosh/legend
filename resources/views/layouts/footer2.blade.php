@@ -20,6 +20,8 @@
           © Legend Brokers {{date('Y')}}. All Rights Reserved.
         </div>
         <div class="text-center-md col-base col-md-4">
+                Address:
+                <br>
             Office 301, Building no.5, Halab Street, opposite to the UK Embassy, Abbdon, Amman, Jordan.
         </div>
       </div>
