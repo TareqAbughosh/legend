@@ -11,8 +11,16 @@
             Legends trust us with their investments, you can too
           </a>
         </div>
-        <div class="text-right-md col-base col-md-4">
+        <div class="text-center-md col-base col-md-4">
+            <a href="{{route('riskDisclosure')}}" class="author-link">
+                Risk disclosure
+            </a>
+          </div>
+        <div class="text-center-md col-base col-md-4">
           © Legend Brokers {{date('Y')}}. All Rights Reserved.
+        </div>
+        <div class="text-center-md col-base col-md-4">
+            Office 301, Building no.5, Halab Street, opposite to the UK Embassy, Abbdon, Amman, Jordan.
         </div>
       </div>
     </div>

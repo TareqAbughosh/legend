@@ -34,6 +34,10 @@ Route::get('/renewable-energy-development', function () {
     return view('renewableDevelopment');
 })->name('renewableDevelopment');
 
+Route::get('/risk-disclosure', function () {
+    return view('riskDisclosure');
+})->name('riskDisclosure');
+
 Route::get('/business-advisory', function () {
     return view('businessAdvisory');
 })->name('business-advisory');

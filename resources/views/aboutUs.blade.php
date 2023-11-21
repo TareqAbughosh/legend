@@ -151,6 +151,8 @@
                     </div>
                   </div>
         </div>
+          </div>
+        </div>
       </section>
 
       <section id="services" class="services section">
@@ -171,6 +173,8 @@
             </div>
           </div>
         </div>
+    </div>
+</div>
       </section>
 
       <!-- Objects -->
