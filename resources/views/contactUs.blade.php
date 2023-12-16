@@ -43,7 +43,7 @@
             </div>
           </div>
           <br>
-        <div class="objects">
+        <div class="objects" style="background-color: #272727">
           <img alt="" class="img-responsive" src="img/map.png">
 
 

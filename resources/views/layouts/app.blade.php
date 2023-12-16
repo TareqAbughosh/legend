@@ -94,7 +94,7 @@
         </div>
       </div>
       <div class="logoLoader">
-        <img src="/img/Legend Icon White.png" alt="Loader Image">
+        <img src="/img/Legend Icon Black.png" alt="Loader Image">
       </div>
     </div>
 
@@ -112,7 +112,7 @@
         <a href="/" class="brand js-target-scroll">
             {{-- <img style="align-items: center;
             display: flex;
-            justify-content: flex-start;" src="/img/Legend Icon White.png" /> --}}
+            justify-content: flex-start;" src="/img/Legend Icon Black.png" /> --}}
 
           Legend<span class="text-primary"> </span>Brokers
         </a>

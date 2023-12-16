@@ -343,8 +343,8 @@
                   <h5>Forward-Thinking Adaptability</h5>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 text-center col-about-img" style="margin-top: 12%;"> <!-- Center the column for small screens -->
-                <img alt="" class="img-responsive" src="/img/Legend Icon White.png" style="box-shadow: none;">
+              <div class="col-sm-6 col-md-4 text-center col-about-img" style="margin-top: 9%;"> <!-- Center the column for small screens -->
+                <img alt="" class="img-responsive" src="/img/Legend Icon Black.png" style="box-shadow: none;">
               </div>
             </div>
           </div>
@@ -716,7 +716,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
             <div class="project project-light">
               <a href="#"  data-toggle="modal" data-target="#trading">
                 <figure>
-                  <img alt="" src="/img/projects/6-480x880.jpg">
+                  <img alt="" src="/img/projects/9c283a_0f000f60c761483099e2bbbd657ed6ba~mv2.webp">
                   <figcaption>
                     <h3 class="project-title">
                         Trade Oil and Gas
@@ -731,7 +731,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
             <div class="project">
               <a  href="#"  data-toggle="modal" data-target="#trading-renewable-confidence">
                 <figure>
-                  <img alt="" src="/img/projects/6-480x880.jpg">
+                  <img alt="" src="/img/projects/30ac2f_b6acd09e017c4620a9fe295e034b98d1~mv2.webp">
                   <figcaption>
                     <h3 class="project-title">
                         Trade Renewable Energy
@@ -746,7 +746,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
             <div class="project">
               <a  href="#"  data-toggle="modal" data-target="#trading-metal-confidence">
                 <figure>
-                  <img alt="" src="/img/projects/6-480x880.jpg">
+                  <img alt="" src="/img/projects/1_d2VyO08p4cY7C_Mgb-nxbA.jpg">
                   <figcaption>
                     <h3 class="project-title">
                         Trade Metals
@@ -761,7 +761,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
             <div class="project">
               <a  href="#"  data-toggle="modal" data-target="#development">
                 <figure>
-                  <img alt="" src="/img/projects/6-480x880.jpg">
+                  <img alt="" src="/img/projects/e4f25b_9606309512244356b06752a467a72315~mv2.webp">
                   <figcaption>
                     <h3 class="project-title">
                         Renewable Energy <br> Development
@@ -776,7 +776,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
             <div class="project">
                 <a  href="#"  data-toggle="modal" data-target="#renewable-energy-consultation">
                   <figure>
-                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <img alt="" src="/img/projects/energy-consulting.png">
                     <figcaption>
                       <h3 class="project-title">
                          Renewable Energy <br> Consultation
@@ -791,7 +791,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
               <div class="project">
                 <a  href="#"  data-toggle="modal" data-target="#advisory">
                   <figure>
-                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <img alt="" src="/img/projects/233d52_32fb73e7fd6d4a2293c9f5fdda83543c~mv2.webp">
                     <figcaption>
                       <h3 class="project-title">
                         Strategic Planning <br> & Management
@@ -806,7 +806,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
               <div class="project">
                 <a  href="#"  data-toggle="modal" data-target="#market-research-analysis">
                   <figure>
-                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <img alt="" src="/img/projects/5-Reasons-You-Should-Hire-a-Professional-Market-Research-Company-Square.jpg">
                     <figcaption>
                       <h3 class="project-title">
                         Market Research <br> & Analysis
@@ -821,7 +821,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
               <div class="project">
                 <a  href="#"  data-toggle="modal" data-target="#Organizational-Development-Expansion">
                   <figure>
-                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <img alt="" src="/img/projects/slider2-2 (1).jpg">
                     <figcaption>
                       <h3 class="project-title">
                         Organizational Development <br> & Expansion
@@ -836,7 +836,7 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
               <div class="project">
                 <a  href="#"  data-toggle="modal" data-target="#escrow">
                   <figure>
-                    <img alt="" src="/img/projects/6-480x880.jpg">
+                    <img alt="" src="/img/projects/11062b_3ed23a496271479f952fc5627ade149c~mv2.webp">
                     <figcaption>
                       <h3 class="project-title">
                         Escrow Service

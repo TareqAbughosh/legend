@@ -27,7 +27,7 @@
   transition: 0.5s;
 }
 .live > li:hover {
-  color: #FFF;
+  color: black;
 }
 .live > li:hover::before {
   transform: scale(2);
@@ -39,7 +39,7 @@
   content: "";
   width: 10px;
   height: 10px;
-  background: #FFF;
+  background: #272727;
   border-radius: 3px;
   line-height: 0;
   top: 0.27em;
@@ -195,7 +195,7 @@
                 </div>
               </div>
               <br>
-            <div class="objects">
+            <div class="objects" style="background-color: #272727">
               <img alt="" class="img-responsive" src="img/map.png">
 
 
