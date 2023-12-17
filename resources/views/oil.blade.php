@@ -176,7 +176,7 @@
               </p>
             </article>
           </div>
-          <div class="col-secondary col-md-4">
+          {{-- <div class="col-secondary col-md-4">
             <div class="widget widget_recent_post">
               <h3 class="widget-title">Live Oil Price Data Visualization</h3>
               <div style="position: relative; padding-bottom: 75%; height: 0;">
@@ -188,7 +188,7 @@
                 ></iframe>
               </div>
             </div>
-          </div>
+          </div> --}}
         </div>
       </div>
       @include('layouts.footer2')
