@@ -314,7 +314,6 @@
         <div class="container mt-5">
           <div class="row">
             <div class="col-lg-6 offset-lg-3">
-              <h2 class="text-center mb-4">Legend Brokers</h2>
         
               <p><strong>Low spreads and zero commission:</strong> Depends on the product and account type.</p>
         
