@@ -311,7 +311,6 @@
         </div>
                   </div>
         </div>
-        @include('layouts.footer2')
       </section>
 
       <section class="services section">
@@ -322,5 +321,6 @@ Legend Brokers Limited, is a company incorporated with limited liability under t
 
 The information on this site is not directed at residents of the United Arab Emirates, United States, Belgium, Canada and Singapore and is not intended for use by any person in any jurisdiction where such use would be contrary to local law or regulation.
         </p>
+        @include('layouts.footer2')
       </section>
 @endsection
