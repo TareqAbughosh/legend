@@ -17,7 +17,7 @@
             </a>
           </div>
         <div class="text-center-md col-base col-md-4">
-          © Legend Brokers {{date('Y')}}. All Rights Reserved.
+          © Legend Brokers limited {{date('Y')}}. All Rights Reserved.
         </div>
         <div class="text-center-md col-base col-md-4">
                 Address:
