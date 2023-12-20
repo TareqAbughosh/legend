@@ -312,15 +312,22 @@
                   </div>
         </div>
       </section>
-
-      <section class="services section">
+        <section class="blog-details">
+          <div class="container">
+            <div class="row">
+              <div class="col-primary col-md-8">
+                <article class="post">
         <p> 
           Low spreads and zero commission depends on the product and account type.
-Over-the-counter leveraged derivative contracts, including contracts for difference and spot foreign exchange, are complex financial instruments. These instruments come with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work, whether you can afford to incur losses and whether you have the appropriate risk appetite. We recommend you seek professional advice before investing.
-Legend Brokers Limited, is a company incorporated with limited liability under the laws of the Emirate of Ras Al Khaimah, United Arab Emirates (UAE), and the federal laws of the UAE, under registration number IC20130350. 
-
-The information on this site is not directed at residents of the United Arab Emirates, United States, Belgium, Canada and Singapore and is not intended for use by any person in any jurisdiction where such use would be contrary to local law or regulation.
+  Over-the-counter leveraged derivative contracts, including contracts for difference and spot foreign exchange, are complex financial instruments. These instruments come with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work, whether you can afford to incur losses and whether you have the appropriate risk appetite. We recommend you seek professional advice before investing.
+  Legend Brokers Limited, is a company incorporated with limited liability under the laws of the Emirate of Ras Al Khaimah, United Arab Emirates (UAE), and the federal laws of the UAE, under registration number IC20130350. 
+  
+  The information on this site is not directed at residents of the United Arab Emirates, United States, Belgium, Canada and Singapore and is not intended for use by any person in any jurisdiction where such use would be contrary to local law or regulation.
         </p>
+                </article>
+              </div>
+            </div>
+          </div>
         @include('layouts.footer2')
       </section>
 @endsection
