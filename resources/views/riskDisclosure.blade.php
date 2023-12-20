@@ -123,6 +123,20 @@
 
 
       <section id="services" class="services section">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+        
+              <p><strong>Low spreads and zero commission:</strong> Depends on the product and account type.</p>
+        
+              <p><strong>Over-the-counter leveraged derivative contracts:</strong> Including contracts for difference and spot foreign exchange, are complex financial instruments. These instruments come with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work, whether you can afford to incur losses, and whether you have the appropriate risk appetite. We recommend you seek professional advice before investing.</p>
+        
+              <p><strong>Legend Brokers Limited:</strong> Is a company incorporated with limited liability under the laws of the Emirate of Ras Al Khaimah, United Arab Emirates (UAE), and the federal laws of the UAE, under registration number IC20130350.</p>
+        
+              <p><strong>Disclaimer:</strong> The information on this site is not directed at residents of the United Arab Emirates, United States, Belgium, Canada, and Singapore and is not intended for use by any person in any jurisdiction where such use would be contrary to local law or regulation.</p>
+            </div>
+          </div>
+        </div>
         <div class="container">
           <div class="section-content">
             <div class="row-services row-base row">
@@ -311,20 +325,7 @@
         </div>
                   </div>
         </div>
-        <div class="container mt-5">
-          <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-        
-              <p><strong>Low spreads and zero commission:</strong> Depends on the product and account type.</p>
-        
-              <p><strong>Over-the-counter leveraged derivative contracts:</strong> Including contracts for difference and spot foreign exchange, are complex financial instruments. These instruments come with a high risk of losing money rapidly due to leverage. You should consider whether you understand how these products work, whether you can afford to incur losses, and whether you have the appropriate risk appetite. We recommend you seek professional advice before investing.</p>
-        
-              <p><strong>Legend Brokers Limited:</strong> Is a company incorporated with limited liability under the laws of the Emirate of Ras Al Khaimah, United Arab Emirates (UAE), and the federal laws of the UAE, under registration number IC20130350.</p>
-        
-              <p><strong>Disclaimer:</strong> The information on this site is not directed at residents of the United Arab Emirates, United States, Belgium, Canada, and Singapore and is not intended for use by any person in any jurisdiction where such use would be contrary to local law or regulation.</p>
-            </div>
-          </div>
-        </div>
+
         @include('layouts.footer2')
       </section>
 @endsection
