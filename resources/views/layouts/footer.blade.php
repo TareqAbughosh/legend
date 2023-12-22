@@ -7,7 +7,7 @@
               </a>
           </div>
           <div class="text-center-md col-base col-md-4">
-              <a href="{{route('riskDisclosure')}}" class="author-link">
+              <a href="{{route('riskDisclosure')}}" class="author-link" style="color: #333">
                   Risk disclosure
               </a>
               <br>
