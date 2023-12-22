@@ -62,7 +62,7 @@ class ContactUsController extends Controller
                 <p>Thank you for reaching out to us. We will respond to this inquiry as soon as possible.</p>
 
                 <p>Best regards,</p>
-                <p>Opti Energies</p>
+                <p>Legend Brokers</p>
             </body>
             </html>
             ");
