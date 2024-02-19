@@ -874,11 +874,11 @@ We take pride in our successful distribution of +1.1 GW of Tier 1 solar equipmen
           <br>
             <div class="container" id="testimonial">
                 <div class="quoteLoop">
-                    <blockquote class="quote"> <img src="/img/clients/logo_dark.png" width="40%" height="40%" alt=""/>
+                    {{-- <blockquote class="quote"> <img src="/img/clients/logo_dark.png" width="40%" height="40%" alt=""/>
                       <h5 style="font-size: 16px;">&nbsp;<br>
                         &rdquo;Our collaboration with Legend Brokers in the realm of oil and gas trading has been exceptionally rewarding.&rdquo;<br>
                         <small>I.Krestol, Commercial Manager, Ensa Energia</small></h5>
-                    </blockquote>
+                    </blockquote> --}}
                     <blockquote class="quote"> <img src="/img/clients/logo lubrico.png" width="40%" height="40%" alt=""/>
                       <h5 style="font-size: 16px;">&nbsp;<br>
                         &ldquo;Their market expertise, and robust network have enabled us to optimize our trading strategies and maximize profitability. &rdquo;<br>
